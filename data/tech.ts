@@ -1,0 +1,16 @@
+export const technologies = [
+  { name: 'Next.js', logo: '▲' },
+  { name: 'React', logo: '⚛' },
+  { name: 'TypeScript', logo: 'TS' },
+  { name: 'Node.js', logo: '⬡' },
+  { name: 'Python', logo: '🐍' },
+  { name: 'PostgreSQL', logo: '🐘' },
+  { name: 'MongoDB', logo: '🍃' },
+  { name: 'Tailwind CSS', logo: '🌊' },
+  { name: 'Prisma', logo: '◭' },
+  { name: 'OpenAI', logo: '◎' },
+  { name: 'AWS', logo: '☁' },
+  { name: 'Vercel', logo: '▲' },
+  { name: 'Docker', logo: '🐳' },
+  { name: 'Redis', logo: '⚡' },
+]

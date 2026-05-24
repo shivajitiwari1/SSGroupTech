@@ -1,0 +1,54 @@
+import type { PricingTier } from '@/types'
+
+export const pricingTiers: PricingTier[] = [
+  {
+    name: 'Starter',
+    priceRange: '₹15,000 – ₹30,000',
+    description: 'Perfect for businesses needing a professional online presence.',
+    features: [
+      'Up to 5 pages',
+      'Responsive design',
+      'Contact form',
+      'Basic SEO setup',
+      'Google Analytics',
+      '1 revision round',
+      '30-day support',
+    ],
+    highlighted: false,
+    ctaLabel: 'Get Started',
+  },
+  {
+    name: 'Growth',
+    priceRange: '₹50,000 – ₹1,50,000',
+    description: 'For growing businesses that need powerful web applications.',
+    features: [
+      'Custom web application',
+      'ERP or CRM module',
+      'Database & API development',
+      'Admin dashboard',
+      'Authentication system',
+      '3 revision rounds',
+      '90-day support',
+      'Deployment included',
+    ],
+    highlighted: true,
+    ctaLabel: 'Most Popular',
+  },
+  {
+    name: 'Enterprise',
+    priceRange: 'Custom Quote',
+    description: 'Full-scale AI systems, SaaS platforms, and enterprise solutions.',
+    features: [
+      'AI / ML integration',
+      'SaaS multi-tenant platform',
+      'Full ERP system',
+      'Custom integrations',
+      'Dedicated project manager',
+      'Unlimited revisions',
+      '1-year support',
+      'Priority delivery',
+    ],
+    highlighted: false,
+    ctaLabel: 'Contact Us',
+  },
+]
