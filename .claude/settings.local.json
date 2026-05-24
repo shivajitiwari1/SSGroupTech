@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@15 . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npx create-next-app@15 . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes --skip-install)",
+      "Bash(npx create-next-app@15 --help)",
+      "Bash(npx create-next-app@15 ssgroup-temp --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npx shadcn@latest init --defaults)",
+      "Bash(npx shadcn@4.7.0 init --defaults)",
+      "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 npx shadcn@latest init --defaults)",
+      "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 npx shadcn@latest add button badge card accordion toast separator --yes)",
+      "Bash(git init *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
