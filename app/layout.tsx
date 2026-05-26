@@ -19,6 +19,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://ssgroup.in'),
   title: {
     default: 'SSGroup | AI-Powered Software Development Company',
     template: '%s | SSGroup',
