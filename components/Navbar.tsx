@@ -34,8 +34,11 @@ export default function Navbar() {
     <header
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-        scrolled ? 'glass border-b border-[var(--border-glass)] py-3' : 'py-5'
+        scrolled || mobileOpen
+          ? 'py-3 border-b border-[var(--border-glass)] backdrop-blur-md'
+          : 'py-5'
       )}
+      style={scrolled || mobileOpen ? { backgroundColor: 'rgba(8, 12, 20, 0.96)' } : undefined}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Logo */}
@@ -95,7 +98,8 @@ export default function Navbar() {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.25 }}
-            className="md:hidden glass border-t border-[var(--border-glass)] overflow-hidden"
+            className="md:hidden border-t border-[var(--border-glass)] overflow-hidden"
+            style={{ backgroundColor: 'rgba(8, 12, 20, 0.98)' }}
           >
             <ul className="flex flex-col px-4 py-4 gap-1">
               {navLinks.map((link) => (
@@ -103,10 +107,10 @@ export default function Navbar() {
                   <Link
                     href={link.href}
                     className={cn(
-                      'block py-2.5 px-3 rounded-lg text-sm font-medium transition-colors',
+                      'block py-2.5 px-3 rounded-lg text-sm font-medium transition-colors border-l-2',
                       pathname === link.href
-                        ? 'text-[color:var(--accent-orange)] bg-[var(--border-glass)]'
-                        : 'text-[var(--text-muted)] hover:text-[color:var(--accent-orange)]'
+                        ? 'text-[color:var(--accent-orange)] border-brand-orange bg-brand-orange/5'
+                        : 'text-[var(--text-muted)] hover:text-[color:var(--accent-orange)] border-transparent'
                     )}
                   >
                     {link.label}
