@@ -3,6 +3,8 @@ import { Inter, Space_Grotesk } from 'next/font/google'
 import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 import ClientProviders from '@/components/ClientProviders'
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -37,7 +39,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         className={`${inter.variable} ${spaceGrotesk.variable} ${GeistMono.variable} antialiased`}
       >
         <ClientProviders>
-          {children}
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
         </ClientProviders>
       </body>
     </html>
