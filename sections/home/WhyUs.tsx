@@ -69,7 +69,7 @@ export default function WhyUs() {
           className="text-center mb-16"
         >
           <span className="text-[color:var(--accent-orange)] font-semibold text-sm uppercase tracking-widest">
-            Why SSGroup
+            Why SSGroupTech
           </span>
           <h2 className="text-4xl lg:text-5xl font-display font-bold text-[var(--text-primary)] mt-3">
             Numbers That <span className="text-gradient">Speak For Us</span>

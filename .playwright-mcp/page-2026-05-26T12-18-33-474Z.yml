@@ -1,0 +1,48 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - button "🌙" [ref=e5] [cursor=pointer]
+    - generic [ref=e7]:
+      - img "SS GROUP-ERP" [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]: SS GROUP - ERP
+        - generic [ref=e12]: Real Estate ERP
+    - generic [ref=e13]:
+      - heading "Welcome back" [level=2] [ref=e14]
+      - paragraph [ref=e15]:
+        - text: Sign in to continue to
+        - strong [ref=e16]: SS GROUP - ERP
+    - generic [ref=e17]:
+      - paragraph [ref=e18]: Demo Accounts — click to fill
+      - generic [ref=e19]:
+        - button "Admin admin / admin@123" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Admin
+          - generic [ref=e22]: admin / admin@123
+        - button "Manager manager / manager@123" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: Manager
+          - generic [ref=e25]: manager / manager@123
+        - button "Staff staff / staff@123" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: Staff
+          - generic [ref=e28]: staff / staff@123
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]: Username
+        - generic [ref=e32]:
+          - generic: 👤
+          - textbox "Enter your username" [active] [ref=e33]
+      - generic [ref=e34]:
+        - generic [ref=e35]: Password
+        - generic [ref=e36]:
+          - textbox "Enter your password" [ref=e37]
+          - button "👁️" [ref=e38] [cursor=pointer]
+      - button "SIGN IN →" [ref=e39] [cursor=pointer]
+    - generic [ref=e40]:
+      - paragraph [ref=e41]: Quick Tools
+      - generic [ref=e42]:
+        - link "📐 Area Conversion" [ref=e43] [cursor=pointer]:
+          - /url: /tools/area-conversion
+        - link "🧮 EMI Calculator" [ref=e44] [cursor=pointer]:
+          - /url: /tools/emi-calculator
+        - link "🌐 My IP" [ref=e45] [cursor=pointer]:
+          - /url: /tools/my-ip
+    - paragraph [ref=e46]: © 2026 SS GROUP - ERP · All rights reserved
+  - alert [ref=e47]

@@ -1,0 +1,22 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - heading "Sign in" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Enter your username and select your role to continue.
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - text: Username
+        - textbox "Username" [ref=e8]:
+          - /placeholder: Your name
+      - generic [ref=e9]:
+        - text: Password
+        - textbox "Password" [ref=e10]:
+          - /placeholder: Enter your password
+      - generic [ref=e11]:
+        - text: Role
+        - combobox "Role" [ref=e12]:
+          - option "Admin" [selected]
+          - option "Lawyer"
+          - option "Assistant"
+          - option "Client"
+      - button "Sign in" [ref=e13] [cursor=pointer]
+  - alert [ref=e14]

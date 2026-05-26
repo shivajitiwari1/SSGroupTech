@@ -1,0 +1,248 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "SS SentinelStack" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: SS
+        - generic [ref=e6]: SentinelStack
+      - navigation "Primary" [ref=e7]:
+        - link "Product" [ref=e8] [cursor=pointer]:
+          - /url: /product
+        - link "Architecture" [ref=e9] [cursor=pointer]:
+          - /url: /architecture
+        - link "Security" [ref=e10] [cursor=pointer]:
+          - /url: /security
+        - link "Docs" [ref=e11] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e12] [cursor=pointer]:
+          - /url: /pricing
+        - link "Request Access" [ref=e13] [cursor=pointer]:
+          - /url: /request-access
+  - main [ref=e14]:
+    - generic [ref=e16]:
+      - generic [ref=e17]: Now in Private Beta | Runtime v2.4
+      - heading "Security Infrastructure, Rebuilt for Runtime." [level=1] [ref=e18]
+      - paragraph [ref=e19]: SentinelStack gives engineering teams real-time threat detection, zero-trust enforcement, and policy automation at every layer of the stack.
+      - generic [ref=e20]:
+        - link "Request Early Access" [ref=e21] [cursor=pointer]:
+          - /url: /request-access
+        - link "View Architecture" [ref=e22] [cursor=pointer]:
+          - /url: /architecture
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - strong [ref=e25]: 99.98%
+          - text: Detection Accuracy
+        - generic [ref=e26]:
+          - strong [ref=e27]: <2ms
+          - text: Policy Latency
+        - generic [ref=e28]:
+          - strong [ref=e29]: 450+
+          - text: Integrations
+        - generic [ref=e30]:
+          - strong [ref=e31]: 10B+
+          - text: Events / Day
+    - generic [ref=e33]:
+      - paragraph [ref=e34]: Trusted by modern engineering teams
+      - generic [ref=e35]: VeritasCoreShiftNovaPayStacklabsMeridianOrbitexFluxcore
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: The Problem
+        - heading "Legacy security was not built for this." [level=2] [ref=e40]
+        - paragraph [ref=e41]: Modern infrastructure moves faster than traditional security tooling. The result is blind spots, alert fatigue, and fragmented control.
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]: "01"
+          - heading "Reactive by Design" [level=3] [ref=e45]
+          - paragraph [ref=e46]: Traditional SIEM and EDR tools detect threats after the fact. By the time an alert fires, lateral movement is already underway.
+        - generic [ref=e47]:
+          - generic [ref=e48]: "02"
+          - heading "Tool Fragmentation" [level=3] [ref=e49]
+          - paragraph [ref=e50]: Security teams work across disconnected tooling with no shared runtime context, so correlation becomes manual and coverage gaps stay hidden.
+        - generic [ref=e51]:
+          - generic [ref=e52]: "03"
+          - heading "No Runtime Visibility" [level=3] [ref=e53]
+          - paragraph [ref=e54]: Logs do not capture what is happening at the process, network, and syscall layer in real time. Teams secure a map instead of the territory.
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - paragraph [ref=e58]: Platform
+        - heading "One platform. Complete coverage." [level=2] [ref=e59]
+        - paragraph [ref=e60]: SentinelStack sits at the intersection of observability and security, giving your team unified runtime context to detect, respond, and enforce at scale.
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e63]: OK
+            - generic [ref=e64]:
+              - strong [ref=e65]: Real-time Threat Detection
+              - paragraph [ref=e66]: Behavioral analysis with sub-millisecond signal processing at the kernel layer.
+          - generic [ref=e67]:
+            - generic [ref=e68]: OK
+            - generic [ref=e69]:
+              - strong [ref=e70]: Policy-driven Automation
+              - paragraph [ref=e71]: Codify security posture as policy and auto-remediate deviations without human intervention.
+          - generic [ref=e72]:
+            - generic [ref=e73]: OK
+            - generic [ref=e74]:
+              - strong [ref=e75]: Zero-trust Runtime Enforcement
+              - paragraph [ref=e76]: Validate trust at every service boundary, in every environment, at all times.
+      - generic [ref=e77]:
+        - generic [ref=e78]: sentinel://runtime-monitor
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - text: THREATS BLOCKED
+            - strong [ref=e81]: 2,847
+          - generic [ref=e82]:
+            - text: POLICY EVALS / s
+            - strong [ref=e83]: 148K
+          - generic [ref=e84]:
+            - text: OPEN ALERTS
+            - strong [ref=e85]: "3"
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105]: allow
+            - generic [ref=e106]: svc/payments -> db:5432 [policy:pci-boundary]
+          - generic [ref=e107]:
+            - generic [ref=e108]: block
+            - generic [ref=e109]: proc/node [uid:1001] -> /etc/shadow [syscall:open]
+          - generic [ref=e110]:
+            - generic [ref=e111]: audit
+            - generic [ref=e112]: container/api-gateway egress:443 anomaly detected
+          - generic [ref=e113]:
+            - generic [ref=e114]: allow
+            - generic [ref=e115]: svc/auth -> svc/user-mgmt [jwt:verified]
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - paragraph [ref=e119]: Capabilities
+        - heading "Built for teams that move fast and stay secure." [level=2] [ref=e120]
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "01"
+          - heading "Runtime Intelligence Engine" [level=3] [ref=e124]
+          - generic [ref=e125]: kernel-level behavioral analysis
+          - paragraph [ref=e126]: Continuously profiles process trees, network flows, and syscalls to build a live behavioral baseline for every workload.
+        - generic [ref=e127]:
+          - generic [ref=e128]: "02"
+          - heading "Continuous Policy Enforcement" [level=3] [ref=e129]
+          - generic [ref=e130]: declarative security-as-code
+          - paragraph [ref=e131]: Define security posture in YAML or OPA. Auto-remediate violations at runtime with no human intervention required.
+        - generic [ref=e132]:
+          - generic [ref=e133]: "03"
+          - heading "AI-assisted Threat Correlation" [level=3] [ref=e134]
+          - generic [ref=e135]: LLM-augmented signal triage
+          - paragraph [ref=e136]: Correlates high-volume signals into prioritized threat chains and cuts analyst toil by 84 percent.
+        - generic [ref=e137]:
+          - generic [ref=e138]: "04"
+          - heading "Infrastructure-wide Observability" [level=3] [ref=e139]
+          - generic [ref=e140]: unified runtime telemetry
+          - paragraph [ref=e141]: One pane of glass across containers, VMs, serverless, and bare metal with minimal runtime overhead.
+        - generic [ref=e142]:
+          - generic [ref=e143]: "05"
+          - heading "Secure DevOps Integration" [level=3] [ref=e144]
+          - generic [ref=e145]: shift security left
+          - paragraph [ref=e146]: Native integrations with GitHub Actions, Terraform, Kubernetes, and the rest of your CI/CD pipeline.
+        - generic [ref=e147]:
+          - generic [ref=e148]: "06"
+          - heading "Compliance Automation Layer" [level=3] [ref=e149]
+          - generic [ref=e150]: evidence collection, automated
+          - paragraph [ref=e151]: Continuous monitoring for SOC 2, PCI DSS, ISO 27001, and HIPAA with generated audit evidence.
+    - generic [ref=e153]:
+      - generic [ref=e154]:
+        - paragraph [ref=e155]: Architecture
+        - heading "Designed for Modern Infrastructure Stacks" [level=2] [ref=e156]
+        - paragraph [ref=e157]: A layered, composable architecture that integrates at the runtime layer instead of bolting on at the perimeter.
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - strong [ref=e161]: Applications
+            - text: containers | vms | serverless
+          - generic [ref=e162]: "->"
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - strong [ref=e165]: Runtime Layer
+            - text: eBPF | syscalls
+          - generic [ref=e166]: "->"
+        - generic [ref=e167]:
+          - generic [ref=e168]:
+            - strong [ref=e169]: Detection Engine
+            - text: ML | behavioral
+          - generic [ref=e170]: "->"
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - strong [ref=e173]: Policy Engine
+            - text: OPA | enforcement
+          - generic [ref=e174]: "->"
+        - generic [ref=e176]:
+          - strong [ref=e177]: Audit Logs
+          - text: immutable | SIEM
+      - link "Explore Full Architecture" [ref=e179] [cursor=pointer]:
+        - /url: /architecture
+    - generic [ref=e181]:
+      - generic [ref=e182]:
+        - paragraph [ref=e183]: Security and Compliance
+        - heading "Enterprise-grade security, by default." [level=2] [ref=e184]
+        - paragraph [ref=e185]: SentinelStack is built on a zero-trust architecture with end-to-end encryption in transit and at rest. All data is processed in isolated environments.
+        - paragraph [ref=e186]: We maintain SOC 2 Type II controls and undergo continuous third-party penetration testing with validated cryptographic modules.
+        - link "View Security Details" [ref=e187] [cursor=pointer]:
+          - /url: /security
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - strong [ref=e190]: SOC 2 Type II
+          - text: Continuously audited
+        - generic [ref=e191]:
+          - strong [ref=e192]: ISO 27001
+          - text: Certified ISMS
+        - generic [ref=e193]:
+          - strong [ref=e194]: GDPR
+          - text: Data residency controls
+        - generic [ref=e195]:
+          - strong [ref=e196]: Zero Trust
+          - text: NIST SP 800-207
+    - generic [ref=e199]:
+      - paragraph [ref=e200]: Get Started
+      - heading "Redefine Runtime Security." [level=2] [ref=e201]
+      - paragraph [ref=e202]: Join forward-thinking engineering teams already securing their stack with SentinelStack.
+      - link "Request Early Access" [ref=e203] [cursor=pointer]:
+        - /url: /request-access
+  - contentinfo [ref=e204]:
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - link "SS SentinelStack" [ref=e207] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e208]: SS
+          - generic [ref=e209]: SentinelStack
+        - paragraph [ref=e210]: Runtime Security Infrastructure for Modern Engineering Teams.
+      - generic [ref=e211]:
+        - heading "Product" [level=3] [ref=e212]
+        - generic [ref=e213]:
+          - link "Overview" [ref=e214] [cursor=pointer]:
+            - /url: /product
+          - link "Architecture" [ref=e215] [cursor=pointer]:
+            - /url: /architecture
+          - link "Pricing" [ref=e216] [cursor=pointer]:
+            - /url: /pricing
+          - link "Request Access" [ref=e217] [cursor=pointer]:
+            - /url: /request-access
+      - generic [ref=e218]:
+        - heading "Developers" [level=3] [ref=e219]
+        - generic [ref=e220]:
+          - link "Documentation" [ref=e221] [cursor=pointer]:
+            - /url: /docs
+          - link "Site API" [ref=e222] [cursor=pointer]:
+            - /url: /api/site
+          - link "Policies API" [ref=e223] [cursor=pointer]:
+            - /url: /api/policies
+          - link "Requests API" [ref=e224] [cursor=pointer]:
+            - /url: /api/requests
+      - generic [ref=e225]:
+        - heading "Company" [level=3] [ref=e226]
+        - generic [ref=e227]:
+          - link "Security" [ref=e228] [cursor=pointer]:
+            - /url: /security
+          - link "Docs" [ref=e229] [cursor=pointer]:
+            - /url: /docs
+          - link "Pricing" [ref=e230] [cursor=pointer]:
+            - /url: /pricing
+          - link "Contact Sales" [ref=e231] [cursor=pointer]:
+            - /url: /request-access
+    - generic [ref=e232]:
+      - paragraph [ref=e233]: Copyright 2026 SentinelStack, Inc.
+      - paragraph [ref=e234]: Privacy | Terms | Security
+  - alert [ref=e235]

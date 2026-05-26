@@ -45,7 +45,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <span className="font-display font-bold text-xl leading-none">
             <span className="text-gradient">SS</span>
-            <span className="text-[var(--text-primary)]">Group</span>
+            <span className="text-[var(--text-primary)]">GroupTech</span>
           </span>
         </Link>
 

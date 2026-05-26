@@ -78,14 +78,14 @@ export default function Footer() {
 
         <div className="border-t border-[var(--border-glass)] pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-[var(--text-muted)] text-sm">
-            © {new Date().getFullYear()} SSGroup. All rights reserved.
+            © {new Date().getFullYear()} SSGroupTech. All rights reserved.
           </p>
           <a
-            href="mailto:hello@ssgroup.in"
+            href="mailto:hello@ssgrouptech.com"
             className="flex items-center gap-2 text-sm text-[var(--text-muted)] hover:text-[color:var(--accent-orange)] transition-colors duration-200"
           >
             <Mail size={14} />
-            hello@ssgroup.in
+            hello@ssgrouptech.com
           </a>
         </div>
       </div>

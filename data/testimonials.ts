@@ -3,7 +3,7 @@ import type { Testimonial } from '@/types'
 export const testimonials: Testimonial[] = [
   {
     id: '1',
-    quote: 'SSGroup delivered our ERP system 2 weeks ahead of schedule. The quality was exceptional and the team was incredibly responsive throughout.',
+    quote: 'SSGroupTech delivered our ERP system 2 weeks ahead of schedule. The quality was exceptional and the team was incredibly responsive throughout.',
     author: 'Rajesh Mehta',
     company: 'Mehta Industries',
     role: 'Managing Director',
@@ -27,7 +27,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: '4',
-    quote: 'Professional, fast, and technically excellent. SSGroup understood our factory workflow better than we explained it.',
+    quote: 'Professional, fast, and technically excellent. SSGroupTech understood our factory workflow better than we explained it.',
     author: 'Sunita Patel',
     company: 'Patel Precision Parts',
     role: 'General Manager',

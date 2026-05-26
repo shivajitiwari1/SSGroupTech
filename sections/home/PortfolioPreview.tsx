@@ -1,7 +1,8 @@
 'use client'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, ExternalLink } from 'lucide-react'
+import BrowserFrame from '@/components/BrowserFrame'
 import { projects } from '@/data/portfolio'
 import { useInView } from '@/hooks/useInView'
 
@@ -44,11 +45,13 @@ export default function PortfolioPreview() {
               whileHover={{ y: -4 }}
               className="glass rounded-2xl overflow-hidden group"
             >
-              <div className="h-48 bg-gradient-to-br from-brand-navy/50 to-brand-orange/10 flex items-center justify-center">
-                <span className="font-display font-bold text-4xl text-gradient">
-                  {project.title[0]}
-                </span>
-              </div>
+              <BrowserFrame
+                src={project.imageUrl}
+                alt={project.title}
+                url={project.liveUrl ?? '#'}
+                category={project.category}
+                className="m-4 mb-0"
+              />
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-3">
                   {project.techStack.slice(0, 3).map((tech) => (
@@ -63,9 +66,20 @@ export default function PortfolioPreview() {
                 <h3 className="font-display font-semibold text-[var(--text-primary)] mb-2">
                   {project.title}
                 </h3>
-                <p className="text-sm text-[var(--text-muted)] leading-relaxed">
+                <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-4">
                   {project.description}
                 </p>
+                {project.liveUrl && (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-[color:var(--accent-orange)] hover:gap-2.5 transition-all duration-200"
+                  >
+                    <ExternalLink size={12} />
+                    Live Preview
+                  </a>
+                )}
               </div>
             </motion.div>
           ))}

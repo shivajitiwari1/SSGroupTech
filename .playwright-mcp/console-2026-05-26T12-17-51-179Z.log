@@ -1,0 +1,11 @@
+[     364ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rK (https://trading-web-bice.vercel.app/_next/static/chunks/f2f58a7e93290fbb.js:1:46764)
+    at rX (https://trading-web-bice.vercel.app/_next/static/chunks/f2f58a7e93290fbb.js:1:47797)
+    at https://trading-web-bice.vercel.app/_next/static/chunks/f2f58a7e93290fbb.js:1:141516
+    at sp (https://trading-web-bice.vercel.app/_next/static/chunks/f2f58a7e93290fbb.js:1:146677)
+    at sc (https://trading-web-bice.vercel.app/_next/static/chunks/f2f58a7e93290fbb.js:1:138017)
+    at https://trading-web-bice.vercel.app/_next/static/chunks/f2f58a7e93290fbb.js:1:132846
+    at u9 (https://trading-web-bice.vercel.app/_next/static/chunks/f2f58a7e93290fbb.js:1:132947)
+    at sV (https://trading-web-bice.vercel.app/_next/static/chunks/f2f58a7e93290fbb.js:1:159329)
+    at MessagePort.O (https://trading-web-bice.vercel.app/_next/static/chunks/f2f58a7e93290fbb.js:1:8295)
+[     398ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://trading-web-bice.vercel.app/favicon.ico:0

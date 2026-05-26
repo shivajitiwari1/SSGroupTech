@@ -1,0 +1,397 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "PropTech NCR — A Helping Hand For A Happy Home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "PropTech NCR — A Helping Hand For A Happy Home" [ref=e6]
+      - generic [ref=e7]:
+        - link "Properties" [ref=e8] [cursor=pointer]:
+          - /url: /properties
+        - link "New Launches" [ref=e9] [cursor=pointer]:
+          - /url: /new-launches
+        - link "About" [ref=e10] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: /contact
+        - button "Cities" [ref=e13] [cursor=pointer]:
+          - text: Cities
+          - img [ref=e14]
+        - link "WhatsApp" [ref=e16] [cursor=pointer]:
+          - /url: https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20properties%20in%20NCR.
+          - img [ref=e17]
+          - text: WhatsApp
+  - generic [ref=e19]:
+    - generic [ref=e26]:
+      - generic [ref=e29]: 6 Cities · 500+ Verified Properties
+      - heading "Find Your Dream Home in NCR" [level=1] [ref=e30]:
+        - text: Find Your
+        - text: Dream Home
+        - text: in NCR
+      - paragraph [ref=e31]: A helping hand for a happy home — trusted real estate partner across Noida, Gurgaon, Greater Noida, Faridabad, Ghaziabad & Delhi.
+      - generic [ref=e32]:
+        - combobox [ref=e33]:
+          - option "All Cities" [selected]
+          - option "Noida"
+          - option "Greater Noida"
+          - option "Gurgaon"
+          - option "Faridabad"
+          - option "Ghaziabad"
+          - option "Delhi"
+        - combobox [ref=e34]:
+          - option "All Types" [selected]
+          - option "Residential"
+          - option "Commercial"
+          - option "New Launch"
+          - option "Plot"
+        - button "Search →" [ref=e35] [cursor=pointer]
+      - generic [ref=e36]:
+        - link "Noida" [ref=e37] [cursor=pointer]:
+          - /url: /cities/noida
+        - link "Gurgaon" [ref=e38] [cursor=pointer]:
+          - /url: /cities/gurgaon
+        - link "Delhi" [ref=e39] [cursor=pointer]:
+          - /url: /cities/delhi
+        - link "New Launches" [ref=e40] [cursor=pointer]:
+          - /url: /new-launches
+    - generic [ref=e42]: Scroll
+  - generic [ref=e46]:
+    - generic [ref=e47]:
+      - img [ref=e49]
+      - generic [ref=e51]: 500+
+      - generic [ref=e52]: Properties Listed
+    - generic [ref=e53]:
+      - img [ref=e55]
+      - generic [ref=e58]: "6"
+      - generic [ref=e59]: Cities Covered
+    - generic [ref=e60]:
+      - img [ref=e62]
+      - generic [ref=e64]: 1200+
+      - generic [ref=e65]: Happy Clients
+    - generic [ref=e66]:
+      - img [ref=e68]
+      - generic [ref=e70]: 5+
+      - generic [ref=e71]: Years of Trust
+  - generic [ref=e73]:
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - paragraph [ref=e76]: Handpicked for You
+        - heading "Featured Properties" [level=2] [ref=e77]
+        - paragraph [ref=e78]: Verified listings across NCR — each personally curated by our team.
+      - link "View All →" [ref=e79] [cursor=pointer]:
+        - /url: /properties
+    - generic [ref=e80]:
+      - link "3BHK Apartment in Sector 62 Residential ₹85 Lakh 1,450 sqft 3BHK Apartment in Sector 62 Sector 62, Noida 3 BHK 2 Bath View →" [ref=e81] [cursor=pointer]:
+        - /url: /properties/3bhk-apartment-sector-62-noida
+        - generic [ref=e82]:
+          - img "3BHK Apartment in Sector 62" [ref=e83]
+          - generic [ref=e86]: Residential
+          - generic [ref=e87]:
+            - generic [ref=e88]: ₹85 Lakh
+            - generic [ref=e89]: 1,450 sqft
+        - generic [ref=e90]:
+          - heading "3BHK Apartment in Sector 62" [level=3] [ref=e91]
+          - generic [ref=e92]:
+            - img [ref=e93]
+            - generic [ref=e96]: Sector 62, Noida
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - img [ref=e99]
+              - text: 3 BHK
+            - generic [ref=e101]:
+              - img [ref=e102]
+              - text: 2 Bath
+            - generic [ref=e104]: View →
+      - link "2BHK Flat in Dwarka Sector 10 Residential ₹72 Lakh 1,100 sqft 2BHK Flat in Dwarka Sector 10 Dwarka Sector 10, Delhi 2 BHK 2 Bath View →" [ref=e105] [cursor=pointer]:
+        - /url: /properties/2bhk-flat-dwarka-sector-10-delhi
+        - generic [ref=e106]:
+          - img "2BHK Flat in Dwarka Sector 10" [ref=e107]
+          - generic [ref=e110]: Residential
+          - generic [ref=e111]:
+            - generic [ref=e112]: ₹72 Lakh
+            - generic [ref=e113]: 1,100 sqft
+        - generic [ref=e114]:
+          - heading "2BHK Flat in Dwarka Sector 10" [level=3] [ref=e115]
+          - generic [ref=e116]:
+            - img [ref=e117]
+            - generic [ref=e120]: Dwarka Sector 10, Delhi
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - img [ref=e123]
+              - text: 2 BHK
+            - generic [ref=e125]:
+              - img [ref=e126]
+              - text: 2 Bath
+            - generic [ref=e128]: View →
+      - link "Commercial Shop in Cyber City Commercial ₹1.5 Cr 650 sqft Commercial Shop in Cyber City Cyber City, Gurgaon 1 Bath View →" [ref=e129] [cursor=pointer]:
+        - /url: /properties/commercial-shop-cyber-city-gurgaon
+        - generic [ref=e130]:
+          - img "Commercial Shop in Cyber City" [ref=e131]
+          - generic [ref=e134]: Commercial
+          - generic [ref=e135]:
+            - generic [ref=e136]: ₹1.5 Cr
+            - generic [ref=e137]: 650 sqft
+        - generic [ref=e138]:
+          - heading "Commercial Shop in Cyber City" [level=3] [ref=e139]
+          - generic [ref=e140]:
+            - img [ref=e141]
+            - generic [ref=e144]: Cyber City, Gurgaon
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - img [ref=e147]
+              - text: 1 Bath
+            - generic [ref=e149]: View →
+      - link "Luxe Villa Project — Emerald Heights New Launch ₹2.5 Cr onwards 3,200 sqft Luxe Villa Project — Emerald Heights Greater Noida West, Greater Noida 4 BHK 4 Bath View →" [ref=e150] [cursor=pointer]:
+        - /url: /properties/emerald-heights-villa-project-greater-noida
+        - generic [ref=e151]:
+          - img "Luxe Villa Project — Emerald Heights" [ref=e152]
+          - generic [ref=e155]: New Launch
+          - generic [ref=e156]:
+            - generic [ref=e157]: ₹2.5 Cr onwards
+            - generic [ref=e158]: 3,200 sqft
+        - generic [ref=e159]:
+          - heading "Luxe Villa Project — Emerald Heights" [level=3] [ref=e160]
+          - generic [ref=e161]:
+            - img [ref=e162]
+            - generic [ref=e165]: Greater Noida West, Greater Noida
+          - generic [ref=e166]:
+            - generic [ref=e167]:
+              - img [ref=e168]
+              - text: 4 BHK
+            - generic [ref=e170]:
+              - img [ref=e171]
+              - text: 4 Bath
+            - generic [ref=e173]: View →
+  - generic [ref=e176]:
+    - generic [ref=e177]:
+      - paragraph [ref=e178]: Delhi NCR Coverage
+      - heading "Browse by City" [level=2] [ref=e179]
+      - paragraph [ref=e180]: All 6 cities — find your neighbourhood
+    - generic [ref=e181]:
+      - link "Noida Noida IT hub & modern townships View Properties →" [ref=e182] [cursor=pointer]:
+        - /url: /cities/noida
+        - img "Noida" [ref=e183]
+        - generic [ref=e186]:
+          - generic [ref=e187]: Noida
+          - generic [ref=e188]: IT hub & modern townships
+          - generic [ref=e189]: View Properties →
+      - link "Greater Noida Greater Noida Planned city, new projects View Properties →" [ref=e190] [cursor=pointer]:
+        - /url: /cities/greater-noida
+        - img "Greater Noida" [ref=e191]
+        - generic [ref=e194]:
+          - generic [ref=e195]: Greater Noida
+          - generic [ref=e196]: Planned city, new projects
+          - generic [ref=e197]: View Properties →
+      - link "Gurgaon Gurgaon Corporate & luxury living View Properties →" [ref=e198] [cursor=pointer]:
+        - /url: /cities/gurgaon
+        - img "Gurgaon" [ref=e199]
+        - generic [ref=e202]:
+          - generic [ref=e203]: Gurgaon
+          - generic [ref=e204]: Corporate & luxury living
+          - generic [ref=e205]: View Properties →
+      - link "Faridabad Faridabad Affordable family homes View Properties →" [ref=e206] [cursor=pointer]:
+        - /url: /cities/faridabad
+        - img "Faridabad" [ref=e207]
+        - generic [ref=e210]:
+          - generic [ref=e211]: Faridabad
+          - generic [ref=e212]: Affordable family homes
+          - generic [ref=e213]: View Properties →
+      - link "Ghaziabad Ghaziabad Connected & growing fast View Properties →" [ref=e214] [cursor=pointer]:
+        - /url: /cities/ghaziabad
+        - img "Ghaziabad" [ref=e215]
+        - generic [ref=e218]:
+          - generic [ref=e219]: Ghaziabad
+          - generic [ref=e220]: Connected & growing fast
+          - generic [ref=e221]: View Properties →
+      - link "Delhi Delhi Prime urban properties View Properties →" [ref=e222] [cursor=pointer]:
+        - /url: /cities/delhi
+        - img "Delhi" [ref=e223]
+        - generic [ref=e226]:
+          - generic [ref=e227]: Delhi
+          - generic [ref=e228]: Prime urban properties
+          - generic [ref=e229]: View Properties →
+  - generic [ref=e231]:
+    - generic [ref=e232]:
+      - paragraph [ref=e233]: Property Types
+      - heading "Browse by Category" [level=2] [ref=e234]
+      - paragraph [ref=e235]: Find exactly what fits your needs
+    - generic [ref=e236]:
+      - link "Residential Residential Flats, apartments & villas Browse →" [ref=e237] [cursor=pointer]:
+        - /url: /properties?type=residential
+        - img "Residential" [ref=e238]
+        - generic [ref=e241]:
+          - img [ref=e243]
+          - generic [ref=e245]: Residential
+          - generic [ref=e246]: Flats, apartments & villas
+          - generic [ref=e247]: Browse →
+      - link "Commercial Commercial Offices, shops & warehouses Browse →" [ref=e248] [cursor=pointer]:
+        - /url: /properties?type=commercial
+        - img "Commercial" [ref=e249]
+        - generic [ref=e252]:
+          - img [ref=e254]
+          - generic [ref=e256]: Commercial
+          - generic [ref=e257]: Offices, shops & warehouses
+          - generic [ref=e258]: Browse →
+      - link "New Launches New Launches Under-construction projects Browse →" [ref=e259] [cursor=pointer]:
+        - /url: /properties?type=new-launch
+        - img "New Launches" [ref=e260]
+        - generic [ref=e263]:
+          - img [ref=e265]
+          - generic [ref=e267]: New Launches
+          - generic [ref=e268]: Under-construction projects
+          - generic [ref=e269]: Browse →
+      - link "Plots Plots Residential & commercial plots Browse →" [ref=e270] [cursor=pointer]:
+        - /url: /properties?type=plot
+        - img "Plots" [ref=e271]
+        - generic [ref=e274]:
+          - img [ref=e276]
+          - generic [ref=e278]: Plots
+          - generic [ref=e279]: Residential & commercial plots
+          - generic [ref=e280]: Browse →
+  - generic [ref=e283]:
+    - generic [ref=e284]:
+      - paragraph [ref=e285]: Our Promise
+      - heading "Why Families Trust PropTech NCR" [level=2] [ref=e286]:
+        - text: Why Families Trust
+        - text: PropTech NCR
+      - paragraph [ref=e287]: We're not just listing properties — we're building relationships. Every family deserves the right home, and we help you find it without the stress.
+      - link "Learn About Us →" [ref=e288] [cursor=pointer]:
+        - /url: /about
+    - generic [ref=e289]:
+      - generic [ref=e290]:
+        - img [ref=e292]
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - generic [ref=e296]: "01"
+            - heading "Free Expert Consultation" [level=3] [ref=e297]
+          - paragraph [ref=e298]: Expert advice at zero cost — we understand your needs before suggesting options.
+      - generic [ref=e299]:
+        - img [ref=e301]
+        - generic [ref=e303]:
+          - generic [ref=e304]:
+            - generic [ref=e305]: "02"
+            - heading "100% Verified Listings" [level=3] [ref=e306]
+          - paragraph [ref=e307]: Every property is physically verified. No fake listings, no misleading photos.
+      - generic [ref=e308]:
+        - img [ref=e310]
+        - generic [ref=e312]:
+          - generic [ref=e313]:
+            - generic [ref=e314]: "03"
+            - heading "2-Hour Response Guarantee" [level=3] [ref=e315]
+          - paragraph [ref=e316]: We respond to every enquiry within 2 hours — site visits arranged same day.
+  - generic [ref=e317]:
+    - img "Luxury interior" [ref=e319]
+    - generic [ref=e322]:
+      - generic [ref=e323]:
+        - paragraph [ref=e324]: Get in Touch
+        - heading "Looking for the Perfect Property?" [level=2] [ref=e325]:
+          - text: Looking for the
+          - text: Perfect Property?
+        - paragraph [ref=e326]: Share your requirements and we'll get back to you with the best options matching your budget and location.
+        - generic [ref=e327]:
+          - generic [ref=e328]:
+            - img [ref=e330]
+            - generic [ref=e332]: Free property consultation
+          - generic [ref=e333]:
+            - img [ref=e335]
+            - generic [ref=e337]: Site visits at your convenience
+          - generic [ref=e338]:
+            - img [ref=e340]
+            - generic [ref=e342]: No hidden charges ever
+          - generic [ref=e343]:
+            - img [ref=e345]
+            - generic [ref=e347]: Legal documentation guidance
+      - generic [ref=e348]:
+        - heading "Send an Enquiry" [level=3] [ref=e349]
+        - paragraph [ref=e350]: We respond within 2 hours
+        - generic [ref=e351]:
+          - generic [ref=e352]:
+            - generic [ref=e353]:
+              - generic [ref=e354]: Your Name *
+              - textbox "Rahul Sharma" [ref=e355]
+            - generic [ref=e356]:
+              - generic [ref=e357]: Phone *
+              - textbox "9876543210" [ref=e358]
+          - generic [ref=e359]:
+            - generic [ref=e360]: Email
+            - textbox "rahul@email.com" [ref=e361]
+          - generic [ref=e362]:
+            - generic [ref=e363]: City of Interest
+            - combobox [ref=e364]:
+              - option "Select a city..." [selected]
+              - option "Noida"
+              - option "Greater Noida"
+              - option "Gurgaon"
+              - option "Faridabad"
+              - option "Ghaziabad"
+              - option "Delhi"
+          - generic [ref=e365]:
+            - generic [ref=e366]: Message
+            - textbox "Tell us about your requirements..." [ref=e367]
+          - button "Send Enquiry" [ref=e368] [cursor=pointer]
+          - paragraph [ref=e369]: WhatsApp message will open after submission
+  - contentinfo [ref=e370]:
+    - generic [ref=e371]:
+      - generic [ref=e372]:
+        - generic [ref=e373]:
+          - img "PropTech NCR" [ref=e375]
+          - paragraph [ref=e376]: Your trusted real estate partner across Delhi NCR — helping families find their dream homes since 2020.
+          - link [ref=e378] [cursor=pointer]:
+            - /url: https://wa.me/919876543210
+            - img [ref=e379]
+        - generic [ref=e381]:
+          - heading "Quick Links" [level=4] [ref=e382]
+          - list [ref=e383]:
+            - listitem [ref=e384]:
+              - link "All Properties" [ref=e385] [cursor=pointer]:
+                - /url: /properties
+            - listitem [ref=e386]:
+              - link "New Launches" [ref=e387] [cursor=pointer]:
+                - /url: /new-launches
+            - listitem [ref=e388]:
+              - link "About Us" [ref=e389] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e390]:
+              - link "Contact" [ref=e391] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e392]:
+          - heading "Cities" [level=4] [ref=e393]
+          - list [ref=e394]:
+            - listitem [ref=e395]:
+              - link "Noida" [ref=e396] [cursor=pointer]:
+                - /url: /cities/noida
+            - listitem [ref=e397]:
+              - link "Greater Noida" [ref=e398] [cursor=pointer]:
+                - /url: /cities/greater-noida
+            - listitem [ref=e399]:
+              - link "Gurgaon" [ref=e400] [cursor=pointer]:
+                - /url: /cities/gurgaon
+            - listitem [ref=e401]:
+              - link "Faridabad" [ref=e402] [cursor=pointer]:
+                - /url: /cities/faridabad
+            - listitem [ref=e403]:
+              - link "Ghaziabad" [ref=e404] [cursor=pointer]:
+                - /url: /cities/ghaziabad
+            - listitem [ref=e405]:
+              - link "Delhi" [ref=e406] [cursor=pointer]:
+                - /url: /cities/delhi
+        - generic [ref=e407]:
+          - heading "Contact Us" [level=4] [ref=e408]
+          - list [ref=e409]:
+            - listitem [ref=e410]:
+              - img [ref=e411]
+              - link "+91 98765 43210" [ref=e413] [cursor=pointer]:
+                - /url: tel:+919876543210
+            - listitem [ref=e414]:
+              - img [ref=e415]
+              - link "info@proptechncr.com" [ref=e417] [cursor=pointer]:
+                - /url: mailto:info@proptechncr.com
+            - listitem [ref=e418]:
+              - img [ref=e419]
+              - generic [ref=e422]: NCR, India
+      - generic [ref=e423]:
+        - paragraph [ref=e424]: © 2026 PropTech NCR. All rights reserved.
+        - paragraph [ref=e425]: Real Estate Channel Partner · Delhi NCR
+  - link "Chat on WhatsApp" [ref=e426] [cursor=pointer]:
+    - /url: https://wa.me/919876543210?text=Hi%2C%20I%20found%20your%20website%20and%20I%27m%20interested%20in%20properties%20in%20NCR.
+    - img [ref=e427]
+  - alert [ref=e429]

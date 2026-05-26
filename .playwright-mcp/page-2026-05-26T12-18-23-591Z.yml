@@ -1,0 +1,284 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "📞 +91-7289026558" [ref=e5] [cursor=pointer]:
+        - /url: tel:+917289026558
+      - link "✉ japanindia1947@gmail.com" [ref=e6] [cursor=pointer]:
+        - /url: mailto:japanindia1947@gmail.com
+    - generic [ref=e7]:
+      - generic [ref=e8]: "Mon–Sat: 9:00 AM – 7:00 PM"
+      - generic [ref=e9]: 📍 Sector-2, Noida
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "Tensai Japanese Language Institute" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - img "Tensai Japanese Language Institute" [ref=e13]
+      - button "Open menu" [ref=e14] [cursor=pointer]
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: Premier Japanese Institute
+        - heading "Learn Japanese, Unlock a World of Opportunity" [level=1] [ref=e25]
+        - paragraph [ref=e26]: TIJL is Delhi NCR's most trusted Japanese language institute, with 15+ years of excellence in JLPT coaching and career placement.
+        - generic [ref=e27]:
+          - link "Explore Courses" [ref=e28] [cursor=pointer]:
+            - /url: /courses/japanese
+          - link "Register Now" [ref=e29] [cursor=pointer]:
+            - /url: /registration
+      - generic [ref=e33]:
+        - generic [ref=e34]: JLPT Certified Coaching
+        - heading "All Five JLPT Levels — N5 to N1" [level=1] [ref=e35]
+        - paragraph [ref=e36]: Comprehensive preparation for the Japanese Language Proficiency Test with expert faculty, updated study material, and mock exams.
+        - generic [ref=e37]:
+          - link "JLPT Courses" [ref=e38] [cursor=pointer]:
+            - /url: /courses/jlpt
+          - link "View Fee Structure" [ref=e39] [cursor=pointer]:
+            - /url: /fees
+      - generic [ref=e43]:
+        - generic [ref=e44]: Career Placement Support
+        - heading "From Classroom to Corporate Japan" [level=1] [ref=e45]
+        - paragraph [ref=e46]: Our dedicated placement cell connects graduates with 1600+ Japanese companies operating in India across automobile, IT, electronics and more.
+        - generic [ref=e47]:
+          - link "Career Placement" [ref=e48] [cursor=pointer]:
+            - /url: /services/placement
+          - link "Learn More" [ref=e49] [cursor=pointer]:
+            - /url: /about
+      - button "Previous" [ref=e50] [cursor=pointer]: ‹
+      - button "Next" [ref=e51] [cursor=pointer]: ›
+      - generic [ref=e52]:
+        - button "Slide 1" [ref=e53] [cursor=pointer]
+        - button "Slide 2" [ref=e54] [cursor=pointer]
+        - button "Slide 3" [ref=e55] [cursor=pointer]
+        - button "Pause slideshow" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - text: "15"
+          - superscript [ref=e64]: +
+        - generic [ref=e65]: Years of Excellence
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - text: "5000"
+          - superscript [ref=e68]: +
+        - generic [ref=e69]: Students Trained
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - text: "1600"
+          - superscript [ref=e72]: +
+        - generic [ref=e73]: Japanese Companies in India
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - text: "98"
+          - superscript [ref=e76]: "%"
+        - generic [ref=e77]: Placement Success Rate
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - generic [ref=e81]: Why Choose TIJL
+        - heading "Delhi NCR's Most Trusted Japanese Institute" [level=2] [ref=e82]
+        - paragraph [ref=e84]: Expert faculty, JLPT-aligned curriculum, and dedicated career placement support.
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - generic [ref=e87]: 🎓
+          - heading "Expert Faculty" [level=3] [ref=e88]
+          - paragraph [ref=e89]: Our instructors are certified Japanese language experts with years of teaching experience and deep JLPT knowledge.
+          - link "Learn More →" [ref=e90] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=e91]:
+          - generic [ref=e92]: 📋
+          - heading "JLPT Aligned Curriculum" [level=3] [ref=e93]
+          - paragraph [ref=e94]: Study material is directly in sync with JLPT N5–N1 requirements, ensuring maximum pass rates for our students.
+          - link "Learn More →" [ref=e95] [cursor=pointer]:
+            - /url: /courses/jlpt
+        - generic [ref=e96]:
+          - generic [ref=e97]: 💼
+          - heading "100% Placement Support" [level=3] [ref=e98]
+          - paragraph [ref=e99]: Dedicated career cell with connections to 1600+ Japanese companies operating across India in diverse sectors.
+          - link "Learn More →" [ref=e100] [cursor=pointer]:
+            - /url: /services/placement
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - generic [ref=e104]: Our Courses
+        - heading "Structured Language Programs" [level=2] [ref=e105]
+        - paragraph [ref=e107]: From absolute beginner to advanced proficiency — every level covered.
+      - generic [ref=e108]:
+        - link "日本語 Most Popular Japanese Language Structured courses from beginner (N5) to advanced (N1) levels, with JLPT exam preparation built into every stage. 6 Levels • N5 to N1 View Course →" [ref=e109] [cursor=pointer]:
+          - /url: /courses/japanese
+          - generic [ref=e110]:
+            - generic [ref=e111]: 日本語
+            - generic [ref=e112]: Most Popular
+          - generic [ref=e113]:
+            - heading "Japanese Language" [level=3] [ref=e114]
+            - paragraph [ref=e115]: Structured courses from beginner (N5) to advanced (N1) levels, with JLPT exam preparation built into every stage.
+          - generic [ref=e116]:
+            - generic [ref=e117]: 6 Levels • N5 to N1
+            - generic [ref=e118]: View Course →
+        - link "試験 Certified JLPT Preparation Intensive exam preparation for all five JLPT levels with mock tests, past papers, and focused coaching sessions. July & December Exams View Course →" [ref=e119] [cursor=pointer]:
+          - /url: /courses/jlpt
+          - generic [ref=e120]:
+            - generic [ref=e121]: 試験
+            - generic [ref=e122]: Certified
+          - generic [ref=e123]:
+            - heading "JLPT Preparation" [level=3] [ref=e124]
+            - paragraph [ref=e125]: Intensive exam preparation for all five JLPT levels with mock tests, past papers, and focused coaching sessions.
+          - generic [ref=e126]:
+            - generic [ref=e127]: July & December Exams
+            - generic [ref=e128]: View Course →
+        - link "語学 New International Language Expand beyond Japanese with our international language coaching programs, delivered by specialist faculty. Multiple Languages View Course →" [ref=e129] [cursor=pointer]:
+          - /url: /courses/international
+          - generic [ref=e130]:
+            - generic [ref=e131]: 語学
+            - generic [ref=e132]: New
+          - generic [ref=e133]:
+            - heading "International Language" [level=3] [ref=e134]
+            - paragraph [ref=e135]: Expand beyond Japanese with our international language coaching programs, delivered by specialist faculty.
+          - generic [ref=e136]:
+            - generic [ref=e137]: Multiple Languages
+            - generic [ref=e138]: View Course →
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]: 日本語
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e146]: 🎓
+            - generic [ref=e147]:
+              - strong [ref=e148]: Expert Faculty
+              - text: Certified language instructors
+          - generic [ref=e149]:
+            - generic [ref=e150]: 📋
+            - generic [ref=e151]:
+              - strong [ref=e152]: JLPT Aligned
+              - text: N5 through N1 curriculum
+          - generic [ref=e153]:
+            - generic [ref=e154]: 💼
+            - generic [ref=e155]:
+              - strong [ref=e156]: 100% Placement
+              - text: 1600+ company network
+          - generic [ref=e157]:
+            - generic [ref=e158]: 🏆
+            - generic [ref=e159]:
+              - strong [ref=e160]: 15+ Years
+              - text: Trusted institute since 2009
+      - generic [ref=e161]:
+        - generic [ref=e162]: About TIJL
+        - heading "The Right Institute for Your Japanese Journey" [level=2] [ref=e163]
+        - paragraph [ref=e164]: TIJL has been shaping Japanese language professionals for over 15 years in Delhi NCR. Our methodology combines conversational learning, JLPT exam prep, and real-world career support.
+        - list [ref=e165]:
+          - listitem [ref=e166]:
+            - generic [ref=e167]: ✓
+            - text: Audio-visual tools and conversation-based learning methodology
+          - listitem [ref=e168]:
+            - generic [ref=e169]: ✓
+            - text: Study material aligned with updated JLPT curriculum
+          - listitem [ref=e170]:
+            - generic [ref=e171]: ✓
+            - text: Periodic assessments and doubt-clearing sessions
+          - listitem [ref=e172]:
+            - generic [ref=e173]: ✓
+            - text: Small batch sizes for personalized attention
+          - listitem [ref=e174]:
+            - generic [ref=e175]: ✓
+            - text: Experienced faculty with industry connections
+          - listitem [ref=e176]:
+            - generic [ref=e177]: ✓
+            - text: Post-course career placement assistance
+        - generic [ref=e178]:
+          - link "About TIJL" [ref=e179] [cursor=pointer]:
+            - /url: /about
+          - link "Register Now" [ref=e180] [cursor=pointer]:
+            - /url: /registration
+    - generic [ref=e182]:
+      - generic [ref=e183]:
+        - generic [ref=e184]: Our Services
+        - heading "Beyond the Classroom" [level=2] [ref=e185]
+        - paragraph [ref=e187]: We support your complete journey — from language learning to career success.
+      - generic [ref=e188]:
+        - link "💼 Career Placement Dedicated placement cell connecting students with Japanese companies across India." [ref=e189] [cursor=pointer]:
+          - /url: /services/placement
+          - generic [ref=e190]: 💼
+          - heading "Career Placement" [level=3] [ref=e191]
+          - paragraph [ref=e192]: Dedicated placement cell connecting students with Japanese companies across India.
+        - link "🗣️ Career Counselling One-on-one guidance sessions to help plan your career in Japanese-related industries." [ref=e193] [cursor=pointer]:
+          - /url: /services/counselling
+          - generic [ref=e194]: 🗣️
+          - heading "Career Counselling" [level=3] [ref=e195]
+          - paragraph [ref=e196]: One-on-one guidance sessions to help plan your career in Japanese-related industries.
+        - link "🎌 Extra Activities Cultural events, speech contests, calligraphy, origami and Japanese cultural immersion." [ref=e197] [cursor=pointer]:
+          - /url: /services/activities
+          - generic [ref=e198]: 🎌
+          - heading "Extra Activities" [level=3] [ref=e199]
+          - paragraph [ref=e200]: Cultural events, speech contests, calligraphy, origami and Japanese cultural immersion.
+        - link "✈️ Study in Japan Guidance on scholarships, university admissions, and student visa for studying in Japan." [ref=e201] [cursor=pointer]:
+          - /url: /services/study-japan
+          - generic [ref=e202]: ✈️
+          - heading "Study in Japan" [level=3] [ref=e203]
+          - paragraph [ref=e204]: Guidance on scholarships, university admissions, and student visa for studying in Japan.
+    - generic [ref=e206]:
+      - heading "Start Your Japanese Journey Today" [level=2] [ref=e207]
+      - paragraph [ref=e208]: Join thousands of students who have transformed their careers through Japanese language expertise.
+      - generic [ref=e209]:
+        - link "Register Now" [ref=e210] [cursor=pointer]:
+          - /url: /registration
+        - link "Contact Us" [ref=e211] [cursor=pointer]:
+          - /url: /contact
+  - contentinfo [ref=e212]:
+    - generic [ref=e213]:
+      - generic [ref=e214]:
+        - img "Tensai" [ref=e215]
+        - paragraph [ref=e216]: TIJL is a highly reputed Japanese language training institute in Delhi NCR, helping students achieve JLPT certification and career success in Japanese companies.
+      - generic [ref=e217]:
+        - heading "Courses" [level=4] [ref=e218]
+        - list [ref=e219]:
+          - listitem [ref=e220]:
+            - link "Japanese Language" [ref=e221] [cursor=pointer]:
+              - /url: /courses/japanese
+          - listitem [ref=e222]:
+            - link "JLPT Preparation" [ref=e223] [cursor=pointer]:
+              - /url: /courses/jlpt
+          - listitem [ref=e224]:
+            - link "International Language" [ref=e225] [cursor=pointer]:
+              - /url: /courses/international
+          - listitem [ref=e226]:
+            - link "Fee Structure" [ref=e227] [cursor=pointer]:
+              - /url: /fees
+          - listitem [ref=e228]:
+            - link "Batch Timing" [ref=e229] [cursor=pointer]:
+              - /url: /batch-timing
+      - generic [ref=e230]:
+        - heading "Services" [level=4] [ref=e231]
+        - list [ref=e232]:
+          - listitem [ref=e233]:
+            - link "Career Placement" [ref=e234] [cursor=pointer]:
+              - /url: /services/placement
+          - listitem [ref=e235]:
+            - link "Career Counselling" [ref=e236] [cursor=pointer]:
+              - /url: /services/counselling
+          - listitem [ref=e237]:
+            - link "Extra Activities" [ref=e238] [cursor=pointer]:
+              - /url: /services/activities
+          - listitem [ref=e239]:
+            - link "Study in Japan" [ref=e240] [cursor=pointer]:
+              - /url: /services/study-japan
+          - listitem [ref=e241]:
+            - link "Gallery" [ref=e242] [cursor=pointer]:
+              - /url: /gallery
+      - generic [ref=e243]:
+        - heading "Contact" [level=4] [ref=e244]
+        - list [ref=e245]:
+          - listitem [ref=e246]: 📍 Sector-2, Noida
+          - listitem [ref=e247]:
+            - link "📞 +91-7289026558" [ref=e248] [cursor=pointer]:
+              - /url: tel:+917289026558
+          - listitem [ref=e249]:
+            - link "✉ japanindia1947@gmail.com" [ref=e250] [cursor=pointer]:
+              - /url: mailto:japanindia1947@gmail.com
+          - listitem [ref=e251]:
+            - link "About Us" [ref=e252] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e253]:
+            - link "Register Now" [ref=e254] [cursor=pointer]:
+              - /url: /registration
+    - generic [ref=e255]:
+      - generic [ref=e256]: TIJL © All Rights Reserved 2025
+      - generic [ref=e257]: Tensai Japanese Language Institute, Noida
+  - alert [ref=e258]

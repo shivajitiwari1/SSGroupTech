@@ -1,0 +1,348 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "📞 +91 8010-111-777" [ref=e5] [cursor=pointer]:
+        - /url: tel:+918010111777
+      - link "✉ info@oasis.in" [ref=e7] [cursor=pointer]:
+        - /url: mailto:info@oasis.in
+    - generic [ref=e8]:
+      - generic [ref=e9]: RERA Registered Developer
+      - generic [ref=e10]: Delhi NCR's Trusted Builder Since 2002
+  - banner [ref=e11]:
+    - generic [ref=e12]:
+      - link "O Oasis Group Real Estate Developer" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e14]: O
+        - generic [ref=e15]:
+          - strong [ref=e16]: Oasis Group
+          - generic [ref=e17]: Real Estate Developer
+      - generic [ref=e18]:
+        - generic [ref=e19]: 📞 +91 8010-111-777
+        - link "Register Interest" [ref=e20] [cursor=pointer]:
+          - /url: https://wa.me/919999000911?text=Interested%20in%20Oasis%20Group!
+        - button "Menu" [ref=e21] [cursor=pointer]
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: NCR's Trusted Real Estate Developer Since 2002
+        - heading "Where Dreams Find Their Address" [level=1] [ref=e32]:
+          - text: Where
+          - emphasis [ref=e33]: Dreams
+          - text: Find Their
+          - text: Address
+        - paragraph [ref=e34]: Building lives, not just homes
+        - paragraph [ref=e35]: Oasis Group has delivered over 2.2 million sq. ft. of premium residential spaces across Delhi NCR — with uncompromising quality and complete transparency since 2002.
+        - generic [ref=e36]:
+          - link "Explore Projects →" [ref=e37] [cursor=pointer]:
+            - /url: /projects
+          - link "Our Story" [ref=e38] [cursor=pointer]:
+            - /url: /about
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]: 500+
+          - generic [ref=e43]: Satisfied Clients
+        - generic [ref=e44]:
+          - generic [ref=e45]: 2.2M+ Sq.Ft
+          - generic [ref=e46]: Delivered
+        - generic [ref=e47]:
+          - generic [ref=e48]: 23+
+          - generic [ref=e49]: Years in Business
+        - generic [ref=e50]:
+          - generic [ref=e51]: "3"
+          - generic [ref=e52]: Communities Built
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]: About Oasis Group
+        - heading "Client-Driven. Quality-Obsessed. Transparently Delivered." [level=2] [ref=e57]
+        - paragraph [ref=e58]: Since 2002, Oasis Group has delivered more than 2.2 Million sq. ft. of premium residential spaces. We combine innovative design with the finest materials — always on time, always within your expectations.
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]: 🏗️
+          - generic [ref=e62]: Quality First
+          - generic [ref=e63]: Best materials, no compromise on construction standards
+        - generic [ref=e64]:
+          - generic [ref=e65]: 🤝
+          - generic [ref=e66]: Transparency
+          - generic [ref=e67]: Full visibility and honesty at every stage of your journey
+        - generic [ref=e68]:
+          - generic [ref=e69]: ⏰
+          - generic [ref=e70]: On-Time Delivery
+          - generic [ref=e71]: Our commitment to timelines is written into every contract
+        - generic [ref=e72]:
+          - generic [ref=e73]: 🌿
+          - generic [ref=e74]: Green Living
+          - generic [ref=e75]: Sustainable, environment-conscious communities for the future
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - generic [ref=e80]: Ready to Move In
+          - heading "Delivered Projects" [level=2] [ref=e81]
+        - link "View All Projects →" [ref=e83] [cursor=pointer]:
+          - /url: /projects
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - img "Oasis Grandstand" [ref=e87]
+            - generic [ref=e88]: Ready to Move
+          - generic [ref=e89]:
+            - generic [ref=e90]: 📍 Yamuna Expressway
+            - generic [ref=e91]: Oasis Grandstand Phase 1
+            - generic [ref=e92]: 2 & 3 BHK | Near Noida Airport & F1 Circuit
+            - generic [ref=e93]: Amidst the fastest emerging expanse of Delhi NCR, Oasis Grandstand Phase 1 offers premium 2 & 3 BHK residences in close vicinity to Noida International Airport and the iconic F1 Circuit.
+            - generic [ref=e94]:
+              - generic [ref=e95]: Yamuna Expressway Frontage
+              - generic [ref=e96]: Near Jewar International Airport
+              - generic [ref=e97]: F1 Circuit Proximity
+            - generic [ref=e98]:
+              - generic [ref=e99]: UPRERAPRJ6908
+              - link "→" [ref=e100] [cursor=pointer]:
+                - /url: /projects#grandstand-1
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - img "Oasis Venetia Heights" [ref=e103]
+            - generic [ref=e104]: Ready to Move
+          - generic [ref=e105]:
+            - generic [ref=e106]: 📍 Greater Noida
+            - generic [ref=e107]: Oasis Venetia Heights
+            - generic [ref=e108]: 1, 2 & 3 BHK | Heart of Greater Noida
+            - generic [ref=e109]: A perfect address nestled in the heart of Greater Noida with limited options available. 350+ families already residing in this meticulously planned residential community.
+            - generic [ref=e110]:
+              - generic [ref=e111]: Central Greater Noida Location
+              - generic [ref=e112]: 350+ Families Residing
+              - generic [ref=e113]: 1, 2 & 3 BHK Options
+            - generic [ref=e114]:
+              - generic [ref=e115]: UPRERAPRJ1646
+              - link "→" [ref=e116] [cursor=pointer]:
+                - /url: /projects#venetia
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - img "Oasis Homes" [ref=e119]
+            - generic [ref=e120]: 130+ Families
+          - generic [ref=e121]:
+            - generic [ref=e122]: 📍 Greater Noida
+            - generic [ref=e123]: Oasis Homes
+            - generic [ref=e124]: 2 & 3 BHK | Near Noida Airport
+            - generic [ref=e125]: Homes exhibiting a perfect combination of beauty and functionality. With 130+ families already residing, Oasis Homes offers a vibrant, well-established community in Greater Noida.
+            - generic [ref=e126]:
+              - generic [ref=e127]: 130+ Families Residing
+              - generic [ref=e128]: Near Noida Airport
+              - generic [ref=e129]: 2 & 3 BHK Options
+            - generic [ref=e130]:
+              - generic [ref=e131]: RERA Registered
+              - link "→" [ref=e132] [cursor=pointer]:
+                - /url: /projects#homes
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - generic [ref=e138]: 0+
+        - generic [ref=e139]: Satisfied Clients
+      - generic [ref=e140]:
+        - generic [ref=e142]: 0M+ Sq.Ft
+        - generic [ref=e143]: Delivered
+      - generic [ref=e144]:
+        - generic [ref=e146]: 0+
+        - generic [ref=e147]: Years in Business
+      - generic [ref=e148]:
+        - generic [ref=e149]: "0"
+        - generic [ref=e150]: Communities Built
+    - generic [ref=e152]:
+      - generic [ref=e153]:
+        - generic [ref=e154]: Resident Stories
+        - heading "What Our Residents Say" [level=2] [ref=e155]
+        - paragraph [ref=e157]: Real words from the 500+ families who trusted Oasis Group with their most important decision.
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - generic [ref=e160]: “
+          - generic [ref=e161]:
+            - generic [ref=e162]: ★
+            - generic [ref=e163]: ★
+            - generic [ref=e164]: ★
+            - generic [ref=e165]: ★
+            - generic [ref=e166]: ★
+          - paragraph [ref=e167]: I would like to extend my heartfelt thanks and congratulations to the Oasis team for their outstanding accomplishments. Each member has played a vital role in creating a truly wonderful space that will be our dream home. You have made the entire process smooth and enjoyable so far.
+          - generic [ref=e168]:
+            - generic [ref=e169]: P
+            - generic [ref=e170]:
+              - generic [ref=e171]: Punendru Kumar
+              - generic [ref=e172]: A 401
+              - generic [ref=e173]: Venetia Heights
+        - generic [ref=e174]:
+          - generic [ref=e175]: “
+          - generic [ref=e176]:
+            - generic [ref=e177]: ★
+            - generic [ref=e178]: ★
+            - generic [ref=e179]: ★
+            - generic [ref=e180]: ★
+            - generic [ref=e181]: ★
+          - paragraph [ref=e182]: Oasis is a fantastic builder known for its transparency and customer-friendly approach. Their team is available around the clock. For Oasis, it's not just about contracts or sales — it's about building lasting relationships. I wholeheartedly recommend Oasis to all property buyers.
+          - generic [ref=e183]:
+            - generic [ref=e184]: D
+            - generic [ref=e185]:
+              - generic [ref=e186]: Deepa Pathnayak
+              - generic [ref=e187]: B 1505-1506
+              - generic [ref=e188]: Venetia Heights
+        - generic [ref=e189]:
+          - generic [ref=e190]: “
+          - generic [ref=e191]:
+            - generic [ref=e192]: ★
+            - generic [ref=e193]: ★
+            - generic [ref=e194]: ★
+            - generic [ref=e195]: ★
+            - generic [ref=e196]: ★
+          - paragraph [ref=e197]: Choosing Oasis Venetia Heights was one of the best decisions we made. From the initial booking to the final handover, the process has been seamless. The team was always responsive, transparent, and cooperative. Our home is a reflection of thoughtful design and quality construction.
+          - generic [ref=e198]:
+            - generic [ref=e199]: R
+            - generic [ref=e200]:
+              - generic [ref=e201]: Raj Kumar Pandey
+              - generic [ref=e202]: A 1401
+              - generic [ref=e203]: Venetia Heights
+    - generic [ref=e205]:
+      - generic [ref=e206]: Coming Soon
+      - heading "Upcoming Projects" [level=2] [ref=e207]
+      - generic [ref=e209]:
+        - generic [ref=e210]:
+          - generic [ref=e211]:
+            - generic [ref=e212]:
+              - generic [ref=e213]: 🏢
+              - generic [ref=e214]: Oasis Grandstand
+            - generic [ref=e215]: Upcoming
+          - generic [ref=e216]:
+            - generic [ref=e217]: 📍 Yamuna Expressway
+            - generic [ref=e218]: Oasis Grandstand Phase 2
+            - generic [ref=e219]: 2 & 3 BHK | Near Jewar Airport & F1 Circuit
+            - generic [ref=e220]: Building on the massive success of Phase 1, Oasis Grandstand Phase 2 offers enhanced amenities and premium residences at the most strategically located address on the Yamuna Expressway.
+            - generic [ref=e221]:
+              - link "Register Interest →" [ref=e222] [cursor=pointer]:
+                - /url: /contact
+              - generic [ref=e223]: UPRERAPRJ585804
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - generic [ref=e227]: 🏢
+              - generic [ref=e228]: Oasis Arcade
+            - generic [ref=e229]: Upcoming
+          - generic [ref=e230]:
+            - generic [ref=e231]: 📍 Greater Noida
+            - generic [ref=e232]: Oasis Arcade
+            - generic [ref=e233]: Commercial | Prime Commercial Hub
+            - generic [ref=e234]: A premium commercial development offering state-of-the-art retail and office spaces in a strategically located hub in Greater Noida — designed for modern businesses.
+            - generic [ref=e235]:
+              - link "Register Interest →" [ref=e236] [cursor=pointer]:
+                - /url: /contact
+              - generic [ref=e237]: RERA Awaited
+    - generic [ref=e239]:
+      - generic [ref=e240]:
+        - generic [ref=e241]: Why Choose Us
+        - heading "Why Invest with Oasis?" [level=2] [ref=e242]
+        - paragraph [ref=e244]: Six core promises backed by 23 years of delivering on our word.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: 🏆
+          - generic [ref=e248]: Financial Integrity
+          - generic [ref=e249]: We meet all obligations with full transparency — from clients to government authorities — with honesty and compliance at every step.
+        - generic [ref=e250]:
+          - generic [ref=e251]: 💎
+          - generic [ref=e252]: Premium Quality
+          - generic [ref=e253]: We use the best materials available without compromising quality, delivering construction that stands the test of time.
+        - generic [ref=e254]:
+          - generic [ref=e255]: 🤝
+          - generic [ref=e256]: Customer Service
+          - generic [ref=e257]: With a clear focus on high-level transparency and understanding clients' needs, we continuously strive to ensure complete satisfaction.
+        - generic [ref=e258]:
+          - generic [ref=e259]: 🎯
+          - generic [ref=e260]: Timely Delivery
+          - generic [ref=e261]: Our 23-year track record of on-time delivery is your guarantee. We embrace deadlines as a personal challenge.
+        - generic [ref=e262]:
+          - generic [ref=e263]: 💡
+          - generic [ref=e264]: Innovation
+          - generic [ref=e265]: Continual self-improvement drives every project — combining innovative ideas with current market trends for exceptional outcomes.
+        - generic [ref=e266]:
+          - generic [ref=e267]: 📍
+          - generic [ref=e268]: Prime Locations
+          - generic [ref=e269]: Strategic locations near Noida Airport, Yamuna Expressway, and F1 Circuit — properties with strong appreciation potential.
+    - generic [ref=e271]:
+      - generic [ref=e272]: Start Your Journey
+      - heading "Find Your Perfect Home at Oasis" [level=2] [ref=e273]:
+        - text: Find Your Perfect Home
+        - text: at Oasis
+      - paragraph [ref=e274]: Schedule a free site visit and experience the quality of Oasis Group's construction firsthand. Our team is available 6 days a week.
+      - generic [ref=e275]:
+        - link "Book a Site Visit →" [ref=e276] [cursor=pointer]:
+          - /url: /contact
+        - link "💬 WhatsApp Us" [ref=e277] [cursor=pointer]:
+          - /url: https://wa.me/919999000911
+  - contentinfo [ref=e278]:
+    - generic [ref=e279]:
+      - generic [ref=e280]:
+        - generic [ref=e281]:
+          - generic [ref=e282]:
+            - generic [ref=e283]: O
+            - generic [ref=e284]:
+              - strong [ref=e285]: Oasis Group
+              - text: Est. 2002
+          - paragraph [ref=e286]: Building premium residential communities across Delhi NCR since 2002. Over 2.2 million sq. ft. delivered. 500+ happy families calling our projects home.
+          - generic [ref=e287]:
+            - link "f" [ref=e288] [cursor=pointer]:
+              - /url: https://www.facebook.com/OASISREALTECH/
+            - link "𝕏" [ref=e289] [cursor=pointer]:
+              - /url: https://x.com/OasisGroupIndia
+            - link "◉" [ref=e290] [cursor=pointer]:
+              - /url: https://www.instagram.com/oasis_groupindia/
+        - generic [ref=e291]:
+          - heading "Our Projects" [level=4] [ref=e292]
+          - list [ref=e293]:
+            - listitem [ref=e294]:
+              - link "Oasis Grandstand Ph.1" [ref=e295] [cursor=pointer]:
+                - /url: /projects#grandstand-1
+            - listitem [ref=e296]:
+              - link "Oasis Grandstand Ph.2" [ref=e297] [cursor=pointer]:
+                - /url: /projects#grandstand-2
+            - listitem [ref=e298]:
+              - link "Oasis Venetia Heights" [ref=e299] [cursor=pointer]:
+                - /url: /projects#venetia
+            - listitem [ref=e300]:
+              - link "Oasis Homes" [ref=e301] [cursor=pointer]:
+                - /url: /projects#homes
+            - listitem [ref=e302]:
+              - link "Oasis Arcade" [ref=e303] [cursor=pointer]:
+                - /url: /projects#arcade
+        - generic [ref=e304]:
+          - heading "Quick Links" [level=4] [ref=e305]
+          - list [ref=e306]:
+            - listitem [ref=e307]:
+              - link "About Oasis Group" [ref=e308] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e309]:
+              - link "NRI Section" [ref=e310] [cursor=pointer]:
+                - /url: /nri
+            - listitem [ref=e311]:
+              - link "Careers" [ref=e312] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e313]:
+              - link "Contact Us" [ref=e314] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e315]:
+              - link "RERA FAQ" [ref=e316] [cursor=pointer]:
+                - /url: https://www.oasis.in/rera-faq/
+            - listitem [ref=e317]:
+              - link "Why Invest" [ref=e318] [cursor=pointer]:
+                - /url: https://www.oasis.in/why-invest-with-us/
+        - generic [ref=e319]:
+          - heading "Contact Info" [level=4] [ref=e320]
+          - list [ref=e321]:
+            - listitem [ref=e322]:
+              - generic [ref=e323] [cursor=pointer]: 📍 A 77, Sector 2, Noida, Uttar Pradesh - 201301
+            - listitem [ref=e324]:
+              - link "📞 +91 8010-111-777" [ref=e325] [cursor=pointer]:
+                - /url: tel:+91 8010-111-777
+            - listitem [ref=e326]:
+              - link "📞 +91 9999-000-911" [ref=e327] [cursor=pointer]:
+                - /url: tel:+91 9999-000-911
+            - listitem [ref=e328]:
+              - link "✉ info@oasis.in" [ref=e329] [cursor=pointer]:
+                - /url: mailto:info@oasis.in
+            - listitem [ref=e330]: "Monday – Saturday: 10:00 AM – 6:00 PM"
+      - generic [ref=e331]: "Disclaimer: This website is for informational purposes only. All specifications, images, plans and other information are indicative and subject to change without notice. RERA registration numbers are mentioned wherever applicable. Verify all details at the time of booking. This is not an offer or invitation to offer."
+      - generic [ref=e333]:
+        - generic [ref=e334]: © 2026 Oasis Group of Companies. All Rights Reserved.
+        - generic [ref=e335]: UPRERAPRJ6908 | UPRERAPRJ1646 | UPRERAPRJ585804
+  - alert [ref=e336]

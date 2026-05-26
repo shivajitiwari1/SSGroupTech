@@ -1,11 +1,20 @@
 'use client'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { ExternalLink } from 'lucide-react'
+import BrowserFrame from '@/components/BrowserFrame'
 import { projects } from '@/data/portfolio'
 import { cn } from '@/lib/utils'
 
 const filters = ['all', 'web', 'erp', 'ai', 'saas'] as const
 type Filter = (typeof filters)[number]
+
+const categoryColors: Record<string, string> = {
+  web: 'from-brand-navy/60 to-blue-900/20',
+  erp: 'from-brand-navy/60 to-brand-orange/15',
+  ai: 'from-purple-900/40 to-brand-orange/10',
+  saas: 'from-teal-900/40 to-brand-navy/40',
+}
 
 export default function PortfolioGrid() {
   const [active, setActive] = useState<Filter>('all')
@@ -29,13 +38,13 @@ export default function PortfolioGrid() {
                   : 'glass text-[var(--text-muted)] hover:text-[color:var(--accent-orange)]'
               )}
             >
-              {f}
+              {f === 'all' ? 'All' : f === 'erp' ? 'ERP' : f === 'ai' ? 'AI' : f === 'saas' ? 'SaaS' : 'Web'}
             </button>
           ))}
         </div>
 
         {/* Grid */}
-        <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <AnimatePresence mode="popLayout">
             {filtered.map((project) => (
               <motion.div
@@ -48,20 +57,17 @@ export default function PortfolioGrid() {
                 whileHover={{ y: -4 }}
                 className="glass rounded-2xl overflow-hidden group"
               >
-                {/* Placeholder image */}
-                <div className="h-40 bg-gradient-to-br from-brand-navy/60 to-brand-orange/10 flex items-center justify-center relative">
-                  <span className="font-display font-bold text-4xl text-gradient">
-                    {project.title[0]}
-                  </span>
-                  <div className="absolute inset-0 bg-brand-orange/0 group-hover:bg-brand-orange/5 transition-colors duration-200" />
-                </div>
+                {/* Browser frame thumbnail */}
+                <BrowserFrame
+                  src={project.imageUrl}
+                  alt={project.title}
+                  url={project.liveUrl ?? '#'}
+                  category={project.category}
+                />
 
                 {/* Content */}
                 <div className="p-5">
-                  <span className="text-xs font-semibold text-[color:var(--accent-orange)] uppercase tracking-wide">
-                    {project.category}
-                  </span>
-                  <h3 className="font-display font-semibold text-[var(--text-primary)] mt-1 mb-2">
+                  <h3 className="font-display font-semibold text-[var(--text-primary)] mb-2">
                     {project.title}
                   </h3>
                   <p className="text-xs text-[var(--text-muted)] leading-relaxed mb-4">
@@ -82,12 +88,21 @@ export default function PortfolioGrid() {
 
                   {/* Buttons */}
                   <div className="flex gap-2">
-                    <button className="flex-1 text-center text-xs py-2 glass rounded-lg text-[var(--text-muted)] hover:text-[color:var(--accent-orange)] transition-colors duration-200">
-                      Live Preview
-                    </button>
-                    <button className="flex-1 text-center text-xs py-2 glass rounded-lg text-[var(--text-muted)] hover:text-[color:var(--accent-orange)] transition-colors duration-200">
-                      Details
-                    </button>
+                    {project.liveUrl ? (
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 flex items-center justify-center gap-1.5 text-xs py-2 bg-brand-orange text-white rounded-lg font-medium hover:bg-brand-deep transition-colors duration-200"
+                      >
+                        <ExternalLink size={12} />
+                        Live Preview
+                      </a>
+                    ) : (
+                      <span className="flex-1 text-center text-xs py-2 glass rounded-lg text-[var(--text-dim)]">
+                        Coming Soon
+                      </span>
+                    )}
                   </div>
                 </div>
               </motion.div>

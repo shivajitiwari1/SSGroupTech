@@ -33,7 +33,7 @@ export default function AboutStory() {
               <span className="text-gradient">For Business</span>
             </h1>
             <p className="text-[var(--text-muted)] leading-relaxed mb-4">
-              SSGroup was founded with one mission: make enterprise-grade software accessible to
+              SSGroupTech was founded with one mission: make enterprise-grade software accessible to
               every business — from corner-shop startups to multi-crore factories.
             </p>
             <p className="text-[var(--text-muted)] leading-relaxed mb-4">
@@ -42,7 +42,7 @@ export default function AboutStory() {
               the agency we always wished existed.
             </p>
             <p className="text-[var(--text-muted)] leading-relaxed">
-              Today, SSGroup powers businesses across manufacturing, retail, services, and
+              Today, SSGroupTech powers businesses across manufacturing, retail, services, and
               ecommerce — with software that&apos;s fast, reliable, and built to last.
             </p>
           </motion.div>

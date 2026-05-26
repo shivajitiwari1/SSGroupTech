@@ -10,7 +10,24 @@
       "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 npx shadcn@latest init --defaults)",
       "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 npx shadcn@latest add button badge card accordion toast separator --yes)",
       "Bash(git init *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('exports', {}\\), indent=2\\)\\)\")",
+      "Bash(npx next *)",
+      "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 npx next build)",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); const names = Object.keys\\(l\\); const check = ['Github','Twitter','Linkedin','Instagram','Mail','GitBranch','XTwitter','LinkedinIcon','GithubIcon','Globe','AtSign']; check.forEach\\(n => console.log\\(n, names.includes\\(n\\)\\)\\)\")",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); const names = Object.keys\\(l\\); console.log\\(names.filter\\(n => /git|twitter|x|linked|social|share|insta|face|brand/i.test\\(n\\)\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); const names = Object.keys\\(l\\); console.log\\(names.filter\\(n => /^\\(Globe|Share|Link|External|AtSign|Code|Terminal|Rss|Send|MessageCircle|Users|Star|Heart\\)$/.test\\(n\\)\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(grep -E \"^-.*\\\\.\\(json|config|tsx|ts\\)$|^d\")",
+      "Bash(npm test *)",
+      "Bash(git rev-parse *)",
+      "WebFetch(domain:upwork-portfolio-cyan.vercel.app)",
+      "Bash(taskkill /F /IM node.exe)",
+      "PowerShell(Get-Process node -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Force -Confirm:$false)",
+      "Bash(node -e \"require\\('./app/layout.tsx'\\)\")"
+    ],
+    "additionalDirectories": [
+      "e:\\Demo Website\\SSGroup"
     ]
   }
 }

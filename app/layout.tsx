@@ -21,14 +21,14 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL('https://ssgroup.in'),
   title: {
-    default: 'SSGroup | AI-Powered Software Development Company',
-    template: '%s | SSGroup',
+    default: 'SSGroupTech | AI-Powered Software Development Company',
+    template: '%s | SSGroupTech',
   },
   description:
     'Premium software agency specialising in Next.js, ERP, AI automation, SaaS & web development. Trusted by startups, enterprises & factories.',
   openGraph: {
     type: 'website',
-    siteName: 'SSGroup',
+    siteName: 'SSGroupTech',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630 }],
   },
 }

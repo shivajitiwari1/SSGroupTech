@@ -4,7 +4,7 @@ import ServicesGrid from '@/sections/services/ServicesGrid'
 import ContactCTA from '@/sections/home/ContactCTA'
 
 export const metadata: Metadata = {
-  title: 'Services | SSGroup — Web, AI, ERP & SaaS Development',
+  title: 'Services | SSGroupTech — Web, AI, ERP & SaaS Development',
   description:
     'Explore our full range of software development services: Next.js, AI automation, ERP, CRM, SaaS, API integrations, and SEO.',
 }

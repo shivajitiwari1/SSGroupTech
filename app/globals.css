@@ -32,14 +32,14 @@
 
 @layer base {
   :root {
-    --bg-primary: #F8F9FC;
-    --bg-secondary: #FFFFFF;
-    --bg-glass: rgba(248, 249, 252, 0.7);
-    --accent-orange: #EA580C;
+    --bg-primary: #080C14;
+    --bg-secondary: #0D1422;
+    --bg-glass: rgba(13, 20, 34, 0.6);
+    --accent-orange: #F97316;
     --navy: #1E3A5F;
-    --border-glass: rgba(234, 88, 12, 0.15);
-    --text-primary: #0F172A;
-    --text-muted: #475569;
+    --border-glass: rgba(249, 115, 22, 0.15);
+    --text-primary: #F8FAFC;
+    --text-muted: #94A3B8;
   }
 
   .dark {
@@ -51,6 +51,17 @@
     --border-glass: rgba(249, 115, 22, 0.15);
     --text-primary: #F8FAFC;
     --text-muted: #94A3B8;
+  }
+
+  .light {
+    --bg-primary: #F8F9FC;
+    --bg-secondary: #FFFFFF;
+    --bg-glass: rgba(248, 249, 252, 0.7);
+    --accent-orange: #EA580C;
+    --navy: #1E3A5F;
+    --border-glass: rgba(234, 88, 12, 0.15);
+    --text-primary: #0F172A;
+    --text-muted: #475569;
   }
 
   * {
