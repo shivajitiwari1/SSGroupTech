@@ -39,6 +39,9 @@ export interface Testimonial {
   company: string
   role: string
   rating: number
+  imageUrl?: string
+  duration?: string
+  project?: string
 }
 
 export interface FAQItem {
