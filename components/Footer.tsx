@@ -81,11 +81,11 @@ export default function Footer() {
             © {new Date().getFullYear()} SSGroupTech. All rights reserved.
           </p>
           <a
-            href="mailto:hello@ssgrouptech.com"
+            href="mailto:shivajitiwari@gmail.com"
             className="flex items-center gap-2 text-sm text-[var(--text-muted)] hover:text-[color:var(--accent-orange)] transition-colors duration-200"
           >
             <Mail size={14} />
-            hello@ssgrouptech.com
+            shivajitiwari@gmail.com
           </a>
         </div>
       </div>

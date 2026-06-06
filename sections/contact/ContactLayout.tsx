@@ -50,7 +50,7 @@ export default function ContactLayout() {
     }
   }
 
-  const waNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919876543210'
+  const waNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919555839357'
   const calendlyUrl = process.env.NEXT_PUBLIC_CALENDLY_URL ?? 'https://calendly.com'
 
   return (
@@ -73,10 +73,10 @@ export default function ContactLayout() {
               <div>
                 <div className="font-semibold text-[var(--text-primary)] mb-1">Email Us</div>
                 <a
-                  href="mailto:hello@ssgroup.in"
+                  href="mailto:shivajitiwari@gmail.com"
                   className="text-[var(--text-muted)] text-sm hover:text-[color:var(--accent-orange)] transition-colors"
                 >
-                  hello@ssgroup.in
+                  shivajitiwari@gmail.com
                 </a>
               </div>
             </div>
@@ -249,7 +249,7 @@ export default function ContactLayout() {
               )}
               {status === 'error' && (
                 <div className="bg-red-500/10 border border-red-500/30 text-red-400 text-sm px-4 py-3 rounded-xl">
-                  Something went wrong. Please email us directly at hello@ssgroup.in
+                  Something went wrong. Please email us directly at shivajitiwari@gmail.com
                 </div>
               )}
 

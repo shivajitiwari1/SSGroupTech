@@ -6,7 +6,7 @@ import { useInView } from '@/hooks/useInView'
 
 export default function ContactCTA() {
   const { ref, isInView } = useInView()
-  const waNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919876543210'
+  const waNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919555839357'
 
   return (
     <section className="py-24 bg-[var(--bg-secondary)]">
