@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
 
-const FROM = `"SSGroupTech" <${process.env.GMAIL_USER}>`
-
 export async function POST(req: NextRequest) {
   try {
     const { name, email, phone, service, message } = await req.json()
@@ -11,23 +9,21 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
     }
 
-    if (!process.env.GMAIL_USER || !process.env.GMAIL_APP_PASSWORD) {
-      return NextResponse.json({
-        error: `SMTP env missing — GMAIL_USER: ${!!process.env.GMAIL_USER}, GMAIL_APP_PASSWORD: ${!!process.env.GMAIL_APP_PASSWORD}`,
-      }, { status: 500 })
+    const gmailUser = process.env.GMAIL_USER
+    const gmailPass = process.env.GMAIL_APP_PASSWORD
+
+    if (!gmailUser || !gmailPass) {
+      return NextResponse.json({ error: 'SMTP not configured' }, { status: 500 })
     }
+
+    const FROM = `"SSGroupTech" <${gmailUser}>`
 
     const transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com',
       port: 465,
       secure: true,
-      auth: {
-        user: process.env.GMAIL_USER,
-        pass: process.env.GMAIL_APP_PASSWORD,
-      },
-      tls: {
-        rejectUnauthorized: false,
-      },
+      auth: { user: gmailUser, pass: gmailPass },
+      tls: { rejectUnauthorized: false },
     })
 
     await transporter.verify()
@@ -58,7 +54,7 @@ export async function POST(req: NextRequest) {
       `,
     })
 
-    // Confirmation email to the user
+    // Confirmation reply to the user
     await transporter.sendMail({
       from: FROM,
       to: email,
@@ -83,8 +79,8 @@ export async function POST(req: NextRequest) {
           <p style="color: #94A3B8; font-size: 14px; line-height: 1.6; margin-bottom: 20px;">
             In the meantime, feel free to reach us directly:
           </p>
-          <div style="display: flex; gap: 12px; margin-bottom: 28px;">
-            <a href="https://wa.me/919555839357" style="display: inline-block; background: #22c55e; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-size: 14px; font-weight: 600;">WhatsApp Us</a>
+          <div style="margin-bottom: 28px;">
+            <a href="https://wa.me/919555839357" style="display: inline-block; background: #22c55e; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-size: 14px; font-weight: 600; margin-right: 8px;">WhatsApp Us</a>
             <a href="mailto:ssgrouptechindia@gmail.com" style="display: inline-block; background: rgba(249,115,22,0.15); color: #F97316; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-size: 14px; font-weight: 600; border: 1px solid rgba(249,115,22,0.3);">Email Us</a>
           </div>
           <p style="color: #475569; font-size: 12px; border-top: 1px solid #1e293b; padding-top: 16px; margin: 0;">
