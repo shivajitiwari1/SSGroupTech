@@ -9,6 +9,7 @@ import Testimonials from '@/sections/home/Testimonials'
 import Pricing from '@/sections/home/Pricing'
 import FAQ from '@/sections/home/FAQ'
 import ContactCTA from '@/sections/home/ContactCTA'
+import { faqs } from '@/data/faq'
 
 export const metadata: Metadata = {
   title: 'SSGroupTech | AI-Powered Software Development Company India',
@@ -24,14 +25,37 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: 'SSGroupTech | AI-Powered Software Development Company India',
-    description:
-      'Next.js, ERP, AI automation, SaaS & CRM development. India-based, global delivery.',
+    description: 'Next.js, ERP, AI automation, SaaS & CRM development. India-based, global delivery.',
   },
+}
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'SSGroupTech',
+  url: 'https://ssgrouptech.com',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: { '@type': 'EntryPoint', urlTemplate: 'https://ssgrouptech.com/?q={search_term_string}' },
+    'query-input': 'required name=search_term_string',
+  },
+}
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+  })),
 }
 
 export default function HomePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Hero />
       <ServicesSection />
       <WhyUs />

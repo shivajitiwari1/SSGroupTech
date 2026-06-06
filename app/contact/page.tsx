@@ -20,9 +20,35 @@ export const metadata: Metadata = {
   },
 }
 
+const breadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://ssgrouptech.com' },
+    { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://ssgrouptech.com/contact' },
+  ],
+}
+
+const contactPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Contact SSGroupTech',
+  url: 'https://ssgrouptech.com/contact',
+  description: 'Contact SSGroupTech for a free project quote or discovery call.',
+  mainEntity: {
+    '@type': 'Organization',
+    name: 'SSGroupTech',
+    email: 'ssgrouptechindia@gmail.com',
+    telephone: '+91-9555839357',
+    url: 'https://ssgrouptech.com',
+  },
+}
+
 export default function ContactPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }} />
       <ContactHero />
       <ContactLayout />
     </>
