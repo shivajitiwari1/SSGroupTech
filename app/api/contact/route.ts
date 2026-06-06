@@ -10,12 +10,19 @@ export async function POST(req: NextRequest) {
     }
 
     const transporter = nodemailer.createTransport({
-      service: 'gmail',
+      host: 'smtp.gmail.com',
+      port: 465,
+      secure: true,
       auth: {
         user: process.env.GMAIL_USER,
         pass: process.env.GMAIL_APP_PASSWORD,
       },
+      tls: {
+        rejectUnauthorized: false,
+      },
     })
+
+    await transporter.verify()
 
     await transporter.sendMail({
       from: `"SSGroupTech Contact" <${process.env.GMAIL_USER}>`,
@@ -43,8 +50,9 @@ export async function POST(req: NextRequest) {
     })
 
     return NextResponse.json({ success: true })
-  } catch (err) {
-    console.error('Email error:', err)
-    return NextResponse.json({ error: 'Failed to send email' }, { status: 500 })
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : String(err)
+    console.error('Email error:', message)
+    return NextResponse.json({ error: message }, { status: 500 })
   }
 }
