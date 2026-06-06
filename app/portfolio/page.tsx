@@ -4,9 +4,21 @@ import PortfolioGrid from '@/sections/portfolio/PortfolioGrid'
 import ContactCTA from '@/sections/home/ContactCTA'
 
 export const metadata: Metadata = {
-  title: 'Portfolio | SSGroupTech — Our Work & Projects',
+  title: 'Portfolio | Real Projects — ERP, AI, SaaS & Web | SSGroupTech',
   description:
-    'Explore our portfolio of delivered projects across web development, ERP systems, AI automation, and SaaS platforms.',
+    'See real projects built by SSGroupTech: stock ERP, AI trading platforms, school ERP, cybersecurity dashboards, real estate portals, and SaaS applications.',
+  alternates: { canonical: 'https://ssgrouptech.com/portfolio' },
+  openGraph: {
+    url: 'https://ssgrouptech.com/portfolio',
+    title: 'Portfolio | Real Projects — ERP, AI, SaaS & Web | SSGroupTech',
+    description:
+      'Real-world projects: stock ERP, AI trading platforms, school ERP, cybersecurity, real estate portals & SaaS — built by SSGroupTech.',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'SSGroupTech Portfolio' }],
+  },
+  twitter: {
+    title: 'Portfolio | SSGroupTech — ERP, AI, SaaS & Web Projects',
+    description: 'Real projects: stock ERP, AI trading, school ERP, cybersecurity, real estate & SaaS built by SSGroupTech.',
+  },
 }
 
 export default function PortfolioPage() {
