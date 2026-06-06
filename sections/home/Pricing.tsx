@@ -13,7 +13,7 @@ export default function Pricing() {
   const isIndia = locale === 'IN'
 
   return (
-    <section className="py-24 bg-[var(--bg-secondary)]">
+    <section id="pricing" className="py-24 bg-[var(--bg-secondary)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
