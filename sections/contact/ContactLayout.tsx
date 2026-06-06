@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Mail, MessageCircle, Calendar, Globe, Link as LinkIcon } from 'lucide-react'
-import { sendContactEmail, type ContactFormData } from '@/lib/emailjs'
+type ContactFormData = { name: string; email: string; phone: string; service: string; message: string }
 import { useInView } from '@/hooks/useInView'
 
 const serviceOptions = [
@@ -42,7 +42,12 @@ export default function ContactLayout() {
     e.preventDefault()
     setStatus('sending')
     try {
-      await sendContactEmail(form)
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+      if (!res.ok) throw new Error('Failed')
       setStatus('success')
       setForm({ name: '', email: '', phone: '', service: '', message: '' })
     } catch {
