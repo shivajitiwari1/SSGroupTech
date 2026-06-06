@@ -26,10 +26,10 @@ export async function POST(req: NextRequest) {
 
     await transporter.verify()
 
-    // Notification to SSGroupTech inbox
+    // Notification to owner inbox
     await transporter.sendMail({
       from: FROM,
-      to: process.env.GMAIL_USER,
+      to: 'shivajitiwari@gmail.com',
       replyTo: email,
       subject: `New Enquiry: ${service || 'General'} — from ${name}`,
       html: `

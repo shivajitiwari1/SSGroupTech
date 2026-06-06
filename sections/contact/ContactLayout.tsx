@@ -78,10 +78,10 @@ export default function ContactLayout() {
               <div>
                 <div className="font-semibold text-[var(--text-primary)] mb-1">Email Us</div>
                 <a
-                  href="mailto:shivajitiwari@gmail.com"
+                  href="mailto:ssgrouptechindia@gmail.com"
                   className="text-[var(--text-muted)] text-sm hover:text-[color:var(--accent-orange)] transition-colors"
                 >
-                  shivajitiwari@gmail.com
+                  ssgrouptechindia@gmail.com
                 </a>
               </div>
             </div>
@@ -254,7 +254,7 @@ export default function ContactLayout() {
               )}
               {status === 'error' && (
                 <div className="bg-red-500/10 border border-red-500/30 text-red-400 text-sm px-4 py-3 rounded-xl">
-                  Something went wrong. Please email us directly at shivajitiwari@gmail.com
+                  Something went wrong. Please email us directly at ssgrouptechindia@gmail.com
                 </div>
               )}
 
