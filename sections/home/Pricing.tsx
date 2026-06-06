@@ -4,10 +4,13 @@ import { Check } from 'lucide-react'
 import Link from 'next/link'
 import { pricingTiers } from '@/data/pricing'
 import { useInView } from '@/hooks/useInView'
+import { useDomainLocale } from '@/hooks/useDomainLocale'
 import { cn } from '@/lib/utils'
 
 export default function Pricing() {
   const { ref, isInView } = useInView()
+  const locale = useDomainLocale()
+  const isIndia = locale === 'IN'
 
   return (
     <section className="py-24 bg-[var(--bg-secondary)]">
@@ -27,6 +30,17 @@ export default function Pricing() {
           <p className="text-[var(--text-muted)] max-w-xl mx-auto mt-4">
             No hidden fees. No surprise invoices. Just clear value for your investment.
           </p>
+
+          {/* Currency badge */}
+          <div className="inline-flex items-center gap-2 mt-6 glass px-4 py-2 rounded-full text-sm">
+            <span className={cn('w-2 h-2 rounded-full', isIndia ? 'bg-[#FF9933]' : 'bg-blue-400')} />
+            <span className="text-[var(--text-muted)]">
+              Prices shown in{' '}
+              <span className="text-[color:var(--accent-orange)] font-semibold">
+                {isIndia ? 'Indian Rupees (₹)' : 'US Dollars ($)'}
+              </span>
+            </span>
+          </div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
@@ -50,7 +64,7 @@ export default function Pricing() {
                 {tier.name}
               </h3>
               <div className="text-2xl font-display font-bold text-gradient mb-2">
-                {tier.priceRange}
+                {isIndia ? tier.priceRange : tier.priceRangeUSD}
               </div>
               <p className="text-sm text-[var(--text-muted)] mb-6">{tier.description}</p>
               <ul className="space-y-3 mb-8">

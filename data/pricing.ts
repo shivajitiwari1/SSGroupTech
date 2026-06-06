@@ -4,6 +4,7 @@ export const pricingTiers: PricingTier[] = [
   {
     name: 'Starter',
     priceRange: '₹15,000 – ₹30,000',
+    priceRangeUSD: '$200 – $400',
     description: 'Perfect for businesses needing a professional online presence.',
     features: [
       'Up to 5 pages',
@@ -20,6 +21,7 @@ export const pricingTiers: PricingTier[] = [
   {
     name: 'Growth',
     priceRange: '₹50,000 – ₹1,50,000',
+    priceRangeUSD: '$600 – $2,000',
     description: 'For growing businesses that need powerful web applications.',
     features: [
       'Custom web application',
@@ -37,6 +39,7 @@ export const pricingTiers: PricingTier[] = [
   {
     name: 'Enterprise',
     priceRange: 'Custom Quote',
+    priceRangeUSD: 'Custom Quote',
     description: 'Full-scale AI systems, SaaS platforms, and enterprise solutions.',
     features: [
       'AI / ML integration',

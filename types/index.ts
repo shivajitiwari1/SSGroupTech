@@ -25,6 +25,7 @@ export interface Project {
 export interface PricingTier {
   name: string
   priceRange: string
+  priceRangeUSD: string
   description: string
   features: string[]
   highlighted: boolean
