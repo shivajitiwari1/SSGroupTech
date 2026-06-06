@@ -29,7 +29,7 @@ export async function POST(req: NextRequest) {
     // Notification to owner inbox
     await transporter.sendMail({
       from: FROM,
-      to: 'shivajitiwari@gmail.com',
+      to: 'shivajitiwari@gmail.com, ssgrouptechindia@gmail.com',
       replyTo: email,
       subject: `New Enquiry: ${service || 'General'} — from ${name}`,
       html: `
