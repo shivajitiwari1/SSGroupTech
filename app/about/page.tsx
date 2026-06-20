@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'About SSGroupTech | AI-First Software Agency India',
     description:
       "Meet the team behind SSGroupTech — India's AI-first software development agency delivering ERP, SaaS, and web solutions worldwide.",
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'About SSGroupTech' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'About SSGroupTech' }],
   },
   twitter: {
     title: 'About SSGroupTech | AI-First Software Agency India',
@@ -45,7 +45,7 @@ const aboutSchema = {
     name: 'Software Development Services',
   },
   knowsAbout: ['Next.js', 'ERP Development', 'AI Automation', 'SaaS Platforms', 'CRM Solutions', 'API Integration'],
-  foundingDate: '2020',
+  foundingDate: '2019',
   email: 'ssgrouptechindia@gmail.com',
   telephone: '+91-9555839357',
   address: { '@type': 'PostalAddress', addressCountry: 'IN' },

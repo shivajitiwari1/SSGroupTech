@@ -40,6 +40,7 @@
     --border-glass: rgba(249, 115, 22, 0.15);
     --text-primary: #F8FAFC;
     --text-muted: #94A3B8;
+    --text-dim: #64748B;
   }
 
   .dark {
@@ -51,6 +52,7 @@
     --border-glass: rgba(249, 115, 22, 0.15);
     --text-primary: #F8FAFC;
     --text-muted: #94A3B8;
+    --text-dim: #64748B;
   }
 
   .light {
@@ -62,6 +64,7 @@
     --border-glass: rgba(234, 88, 12, 0.15);
     --text-primary: #0F172A;
     --text-muted: #475569;
+    --text-dim: #94A3B8;
   }
 
   * {

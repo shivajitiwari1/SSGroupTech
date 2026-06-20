@@ -130,13 +130,15 @@ export default function ContactLayout() {
               <div className="font-semibold text-[var(--text-primary)] mb-3">Follow Us</div>
               <div className="flex gap-3">
                 {[
-                  { Icon: Globe, label: 'Twitter' },
-                  { Icon: LinkIcon, label: 'LinkedIn' },
-                  { Icon: Globe, label: 'GitHub' },
-                ].map(({ Icon, label }) => (
+                  { Icon: Globe, label: 'Twitter', href: 'https://twitter.com/ssgrouptech' },
+                  { Icon: LinkIcon, label: 'LinkedIn', href: 'https://www.linkedin.com/company/ssgrouptech' },
+                  { Icon: Globe, label: 'GitHub', href: 'https://github.com/shivajitiwari1' },
+                ].map(({ Icon, label, href }) => (
                   <a
                     key={label}
-                    href="#"
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     aria-label={label}
                     className="p-2.5 glass rounded-lg text-[var(--text-muted)] hover:text-[color:var(--accent-orange)] transition-colors"
                   >
@@ -205,7 +207,7 @@ export default function ContactLayout() {
                     name="phone"
                     value={form.phone}
                     onChange={handleChange}
-                    placeholder="+91 00000 00000"
+                    placeholder="+91 98765 43210"
                     className={inputClass}
                   />
                 </div>

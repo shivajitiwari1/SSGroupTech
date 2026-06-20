@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: 'Portfolio | Real Projects — ERP, AI, SaaS & Web | SSGroupTech',
     description:
       'Real-world projects: stock ERP, AI trading platforms, school ERP, cybersecurity, real estate portals & SaaS — built by SSGroupTech.',
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'SSGroupTech Portfolio' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'SSGroupTech Portfolio' }],
   },
   twitter: {
     title: 'Portfolio | SSGroupTech — ERP, AI, SaaS & Web Projects',

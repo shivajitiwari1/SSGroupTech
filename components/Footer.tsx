@@ -11,21 +11,21 @@ const footerLinks = {
   Company: [
     { label: 'About Us', href: '/about' },
     { label: 'Portfolio', href: '/portfolio' },
+    { label: 'Careers', href: '/careers' },
     { label: 'Contact', href: '/contact' },
-    { label: 'Careers', href: '/contact' },
   ],
   Legal: [
-    { label: 'Privacy Policy', href: '#' },
-    { label: 'Terms of Service', href: '#' },
-    { label: 'Refund Policy', href: '#' },
+    { label: 'Privacy Policy', href: '/privacy' },
+    { label: 'Terms of Service', href: '/terms' },
+    { label: 'Refund Policy', href: '/refund' },
   ],
 }
 
 const socialLinks = [
-  { Icon: Globe, href: '#', label: 'Twitter' },
-  { Icon: LinkIcon, href: '#', label: 'LinkedIn' },
-  { Icon: GitBranch, href: '#', label: 'GitHub' },
-  { Icon: Share2, href: '#', label: 'Instagram' },
+  { Icon: Globe, href: 'https://twitter.com/ssgrouptech', label: 'Twitter' },
+  { Icon: LinkIcon, href: 'https://www.linkedin.com/company/ssgrouptech', label: 'LinkedIn' },
+  { Icon: GitBranch, href: 'https://github.com/shivajitiwari1', label: 'GitHub' },
+  { Icon: Share2, href: 'https://www.instagram.com/ssgrouptech', label: 'Instagram' },
 ]
 
 export default function Footer() {
@@ -48,6 +48,8 @@ export default function Footer() {
                   key={label}
                   href={href}
                   aria-label={label}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-2 rounded-lg glass text-[var(--text-muted)] hover:text-[color:var(--accent-orange)] transition-colors duration-200"
                 >
                   <Icon size={15} />
@@ -81,11 +83,11 @@ export default function Footer() {
             © {new Date().getFullYear()} SSGroupTech. All rights reserved.
           </p>
           <a
-            href="mailto:shivajitiwari@gmail.com"
+            href="mailto:ssgrouptechindia@gmail.com"
             className="flex items-center gap-2 text-sm text-[var(--text-muted)] hover:text-[color:var(--accent-orange)] transition-colors duration-200"
           >
             <Mail size={14} />
-            shivajitiwari@gmail.com
+            ssgrouptechindia@gmail.com
           </a>
         </div>
       </div>

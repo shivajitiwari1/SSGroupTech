@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: 'SSGroupTech | AI-Powered Software Development Company',
     description:
       'Premium software agency specialising in Next.js, ERP, AI automation, SaaS & web development. Trusted by startups, enterprises & global clients.',
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'SSGroupTech' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'SSGroupTech' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     title: 'SSGroupTech | AI-Powered Software Development Company',
     description:
       'Premium software agency specialising in Next.js, ERP, AI automation & SaaS development.',
-    images: ['/og-image.png'],
+    images: ['/opengraph-image'],
   },
   alternates: {
     canonical: SITE_URL,

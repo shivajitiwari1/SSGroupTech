@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: 'SSGroupTech | AI-Powered Software Development Company India',
     description:
       'SSGroupTech builds Next.js apps, ERP systems, AI automation, SaaS platforms & CRM solutions for startups and enterprises worldwide.',
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'SSGroupTech' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'SSGroupTech' }],
   },
   twitter: {
     title: 'SSGroupTech | AI-Powered Software Development Company India',

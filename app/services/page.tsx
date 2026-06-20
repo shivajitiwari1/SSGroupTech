@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: 'https://ssgrouptech.com/services',
     title: 'Software Development Services | Next.js, AI, ERP & SaaS — SSGroupTech',
     description: 'Next.js, AI automation, ERP, CRM, SaaS, API integrations & SEO services from SSGroupTech.',
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'SSGroupTech Services' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'SSGroupTech Services' }],
   },
   twitter: {
     title: 'Software Development Services | SSGroupTech',

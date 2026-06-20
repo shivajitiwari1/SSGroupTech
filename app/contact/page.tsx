@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: 'Contact SSGroupTech | Get a Free Project Quote',
     description:
       'Start your software project with SSGroupTech. Free discovery call, WhatsApp support & fast response guaranteed.',
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Contact SSGroupTech' }],
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Contact SSGroupTech' }],
   },
   twitter: {
     title: 'Contact SSGroupTech | Get a Free Project Quote',

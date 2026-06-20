@@ -5,16 +5,19 @@ import { useInView } from '@/hooks/useInView'
 const steps = [
   {
     icon: '🔍',
+    ariaLabel: 'Discovery',
     title: 'Consult',
     desc: 'Deep-dive into your business, challenges, and goals. We ask the questions others skip.',
   },
   {
     icon: '⚡',
+    ariaLabel: 'Rapid Development',
     title: 'Craft',
     desc: 'Design-first development with regular demos. You see the product taking shape from week one.',
   },
   {
     icon: '🚀',
+    ariaLabel: 'Launch',
     title: 'Deliver',
     desc: 'On-time launch with full documentation, training, and post-launch support built in.',
   },
@@ -49,7 +52,7 @@ export default function AboutProcess() {
               transition={{ delay: i * 0.2 }}
               className="text-center glass rounded-2xl p-8"
             >
-              <div className="text-5xl mb-5">{s.icon}</div>
+              <div className="text-5xl mb-5" role="img" aria-label={s.ariaLabel}>{s.icon}</div>
               <h3 className="font-display font-bold text-xl text-[var(--text-primary)] mb-3">
                 {s.title}
               </h3>

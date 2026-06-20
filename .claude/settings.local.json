@@ -24,7 +24,11 @@
       "Bash(taskkill /F /IM node.exe)",
       "PowerShell(Get-Process node -ErrorAction SilentlyContinue)",
       "PowerShell(Stop-Process -Force -Confirm:$false)",
-      "Bash(node -e \"require\\('./app/layout.tsx'\\)\")"
+      "Bash(node -e \"require\\('./app/layout.tsx'\\)\")",
+      "Bash(npx vercel *)",
+      "Bash(vercel --prod)",
+      "PowerShell($env:NODE_TLS_REJECT_UNAUTHORIZED = '0'; Set-Location \"e:\\\\Demo Website\\\\SSGroup\"; vercel --prod 2>&1)",
+      "PowerShell($env:NODE_TLS_REJECT_UNAUTHORIZED = '0'; Set-Location \"e:\\\\Demo Website\\\\SSGroup\"; vercel --prod --name ssgrouptech 2>&1)"
     ],
     "additionalDirectories": [
       "e:\\Demo Website\\SSGroup"

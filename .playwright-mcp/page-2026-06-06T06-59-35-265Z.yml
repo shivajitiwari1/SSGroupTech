@@ -1,0 +1,282 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e4]:
+      - link "Web3Forms" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Web3Forms" [ref=e7]
+      - button "Toggle Menu" [ref=e8] [cursor=pointer]:
+        - img [ref=e9]
+    - generic [ref=e12]:
+      - heading "Contact Forms for Modern Websites" [level=1] [ref=e13]
+      - heading "Receive your html contact form submissions directly in your email inbox using our contact form api service without any server or backend code. Its free!" [level=2] [ref=e14]
+      - link "Create your Form" [ref=e15] [cursor=pointer]:
+        - /url: https://app.web3forms.com
+      - paragraph [ref=e16]: Verify your email and start receiving form submissions. Free forever.
+    - generic [ref=e18]:
+      - button "Run this Code" [ref=e20] [cursor=pointer]:
+        - img [ref=e22]
+        - text: Run this Code
+      - code [ref=e25]:
+        - text: <form action="
+        - generic [ref=e26]: https://api.web3forms.com/submit
+        - text: "\" method=\"POST\"> <input type=\"hidden\" name=\"access_key\" value=\""
+        - generic: YOUR_ACCESS_KEY_HERE
+        - text: "\"> <input type=\"text\" name=\"name\" required> <input type=\"email\" name=\"email\" required> <textarea name=\"message\" required></textarea> <button type=\"submit\">Submit Form</button>"
+        - text: </form>
+    - generic [ref=e28]:
+      - paragraph [ref=e29]: Works with any Technologies
+      - generic [ref=e30]:
+        - link "HTML" [ref=e31] [cursor=pointer]:
+          - /url: /platforms/html-contact-form
+          - img "HTML" [ref=e32]
+        - link "Javascript" [ref=e33] [cursor=pointer]:
+          - /url: /platforms/javascript-contact-form
+          - img "Javascript" [ref=e34]
+        - link "Bootstrap" [ref=e35] [cursor=pointer]:
+          - /url: /platforms/bootstrap-contact-form
+          - img "Bootstrap" [ref=e36]
+        - link "Tailwind CSS" [ref=e37] [cursor=pointer]:
+          - /url: /platforms/tailwindcss-contact-form
+          - img "Tailwind CSS" [ref=e38]
+        - link "React" [ref=e39] [cursor=pointer]:
+          - /url: /platforms/react-contact-form
+          - img "React" [ref=e40]
+        - link "Next.js" [ref=e41] [cursor=pointer]:
+          - /url: /platforms/nextjs-contact-form
+          - img "Next.js" [ref=e42]
+        - link "Astro" [ref=e43] [cursor=pointer]:
+          - /url: /platforms/astro-contact-form
+          - img "Astro" [ref=e44]
+        - link "Gatsby" [ref=e45] [cursor=pointer]:
+          - /url: /platforms/gatsby-contact-form
+          - img "Gatsby" [ref=e46]
+        - link "Vue.js" [ref=e47] [cursor=pointer]:
+          - /url: /platforms/vue-contact-form
+          - img "Vue.js" [ref=e48]
+        - link "Nuxt.js" [ref=e49] [cursor=pointer]:
+          - /url: /platforms/nuxt-contact-form
+          - img "Nuxt.js" [ref=e50]
+        - link "Framer" [ref=e51] [cursor=pointer]:
+          - /url: /platforms/framer-contact-form
+          - img "Framer" [ref=e52]
+        - link "Alpine.js" [ref=e53] [cursor=pointer]:
+          - /url: /platforms/alpinejs-contact-form
+          - img "Alpine.js" [ref=e54]
+        - link "Hugo" [ref=e55] [cursor=pointer]:
+          - /url: /platforms/hugo-contact-form
+          - img "Hugo" [ref=e56]
+        - link "Svelte" [ref=e57] [cursor=pointer]:
+          - /url: /platforms/svelte-contact-form
+          - img "Svelte" [ref=e58]
+        - link "Webflow" [ref=e59] [cursor=pointer]:
+          - /url: /platforms/webflow-contact-form
+          - img "Webflow" [ref=e60]
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - img [ref=e65]
+        - heading "No Backend Code" [level=3] [ref=e67]
+        - paragraph [ref=e68]: You already know! Setting up form is pain. Web3Forms works without any Server or backend code like PHP.
+      - generic [ref=e69]:
+        - img [ref=e71]
+        - heading "Secure Storage" [level=3] [ref=e73]
+        - paragraph [ref=e74]: All emails are sent directly to your email address. Form submissions are securely stored for 30 days on free plans and 1 year on pro plans.
+      - generic [ref=e75]:
+        - img [ref=e77]
+        - heading "Secure & Encrypted" [level=3] [ref=e79]
+        - paragraph [ref=e80]: All form submissions are transmitted over HTTPS. Your data is protected in transit and encrypted at rest.
+      - generic [ref=e81]:
+        - img [ref=e83]
+        - heading "Design without Limits" [level=3] [ref=e85]
+        - paragraph [ref=e86]: Web3Forms is an API based form backend. We can seamlessly integrate to any custom design or style.
+      - generic [ref=e87]:
+        - img [ref=e89]
+        - heading "AWS Powered" [level=3] [ref=e91]
+        - paragraph [ref=e92]: Our Servers are powered by Amazon Cloud Infrastructure (AWS). High Deliverability and Uptime Guaranteed.
+      - generic [ref=e93]:
+        - img [ref=e95]
+        - heading "GDPR Compliant" [level=3] [ref=e97]
+        - paragraph [ref=e98]: We store your personal data securely. We don't share or sell any information with 3rd parties.
+    - link "View all features →" [ref=e100] [cursor=pointer]:
+      - /url: /features
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - heading "How it works" [level=3] [ref=e103]
+        - paragraph [ref=e104]: Easy as 1 2 3. Just follow the steps and you’re done
+      - generic [ref=e105]:
+        - generic [ref=e106]: "1"
+        - heading "Create Your Form" [level=3] [ref=e107]
+        - paragraph [ref=e108]: Verify your email and create an access key.
+        - generic [ref=e109]:
+          - link "Create your form" [ref=e110] [cursor=pointer]:
+            - /url: https://app.web3forms.com
+          - paragraph [ref=e111]: By signing up, you agree to our terms and privacy policy as well as give consent to reach you for marketing purposes.
+      - generic [ref=e112]:
+        - generic [ref=e113]: "2"
+        - heading "Create Contact Form" [level=3] [ref=e114]
+        - paragraph [ref=e115]:
+          - text: Create your contact form code using your favourite language.
+          - text: Copy code below or get more examples in the docs.
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - button "HTML HTML" [ref=e118] [cursor=pointer]:
+              - img "HTML" [ref=e119]
+              - generic [ref=e120]: HTML
+            - button "Javascript Javascript" [ref=e121] [cursor=pointer]:
+              - img "Javascript" [ref=e122]
+              - generic [ref=e123]: Javascript
+            - button "React React" [ref=e124] [cursor=pointer]:
+              - img "React" [ref=e125]
+              - generic [ref=e126]: React
+            - link "More" [ref=e127] [cursor=pointer]:
+              - /url: https://docs.web3forms.com/how-to-guides/static-site-generators
+              - img [ref=e128]
+              - generic [ref=e134]: More
+          - code [ref=e137]:
+            - text: "<form action=\"https://api.web3forms.com/submit\" method=\"POST\"> <!-- Replace with your Access Key --> <input type=\"hidden\" name=\"access_key\" value=\"YOUR_ACCESS_KEY_HERE\"> <!-- Form Inputs. Each input must have a name=\"\" attribute --> <input type=\"text\" name=\"name\" required> <input type=\"email\" name=\"email\" required> <textarea name=\"message\" required></textarea> <!-- Honeypot Spam Protection --> <input type=\"checkbox\" name=\"botcheck\" class=\"hidden\" style=\"display: none;\"> <!-- Custom Confirmation / Success Page --> <!-- <input type=\"hidden\" name=\"redirect\" value=\"https://mywebsite.com/thanks.html\"> --> <button type=\"submit\">Submit Form</button>"
+            - text: </form>
+          - link "Show Advanced Example" [ref=e138] [cursor=pointer]:
+            - /url: https://docs.web3forms.com/getting-started/examples/advanced-all-options
+      - generic [ref=e139]:
+        - generic [ref=e140]: "3"
+        - heading "Add Access Key" [level=3] [ref=e141]
+        - paragraph [ref=e142]: Replace with your access key to start receiving email submissions.
+        - generic [ref=e143]:
+          - code [ref=e145]: <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+          - link "See Detailed Docs" [ref=e146] [cursor=pointer]:
+            - /url: https://docs.web3forms.com/
+    - generic [ref=e148]:
+      - link "Visit Lucian Tartea, Inovatik Avatar" [ref=e150] [cursor=pointer]:
+        - /url: https://twitter.com/Inovatik
+        - generic [ref=e151]: Visit Lucian Tartea, Inovatik
+        - img "Avatar" [ref=e152]
+      - paragraph [ref=e154]: “ Web3Forms is by far the smoothest solution to receive contact form data without using backend code or databases. It took me 5 minutes to set it up with basic HTML skills. A quick signup, no admin interface, no credit card details—just plug & smile “
+      - heading "Lucian Tartea, Inovatik" [level=3] [ref=e155]:
+        - link "Lucian Tartea, Inovatik" [ref=e156] [cursor=pointer]:
+          - /url: https://twitter.com/Inovatik
+    - generic [ref=e157]:
+      - generic [ref=e158]:
+        - heading "FAQ" [level=3] [ref=e159]
+        - paragraph [ref=e160]: Frequently Asked Questions
+      - generic [ref=e161]:
+        - group [ref=e162]:
+          - generic "Is this service really free?" [ref=e163] [cursor=pointer]:
+            - generic [ref=e164]: Is this service really free?
+            - img [ref=e166]
+        - group [ref=e168]:
+          - generic "What are the limits of the free plan?" [ref=e169] [cursor=pointer]:
+            - generic [ref=e170]: What are the limits of the free plan?
+            - img [ref=e172]
+        - group [ref=e174]:
+          - generic "My Access Key is publicly available. What should I do?" [ref=e175] [cursor=pointer]:
+            - generic [ref=e176]: My Access Key is publicly available. What should I do?
+            - img [ref=e178]
+        - group [ref=e180]:
+          - generic "My Contact form is not working. What should I do?" [ref=e181] [cursor=pointer]:
+            - generic [ref=e182]: My Contact form is not working. What should I do?
+            - img [ref=e184]
+        - group [ref=e186]:
+          - generic "How Web3Forms is different from other solutions?" [ref=e187] [cursor=pointer]:
+            - generic [ref=e188]: How Web3Forms is different from other solutions?
+            - img [ref=e190]
+        - group [ref=e192]:
+          - generic "Is my email and form submission data safe & secure?" [ref=e193] [cursor=pointer]:
+            - generic [ref=e194]: Is my email and form submission data safe & secure?
+            - img [ref=e196]
+        - group [ref=e198]:
+          - generic "Is Web3Forms GDPR compliant?" [ref=e199] [cursor=pointer]:
+            - generic [ref=e200]: Is Web3Forms GDPR compliant?
+            - img [ref=e202]
+    - generic [ref=e205]:
+      - paragraph [ref=e206]: Host anywhere
+      - img "logos" [ref=e208]
+    - generic [ref=e209]:
+      - heading "Get Started!" [level=3] [ref=e210]
+      - paragraph [ref=e211]: Create your contact form for static website in minutes.
+      - link "Create your Form" [ref=e212] [cursor=pointer]:
+        - /url: https://app.web3forms.com
+      - paragraph [ref=e213]: Get started for free
+    - contentinfo [ref=e214]:
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - heading "Product" [level=6] [ref=e218]
+          - list [ref=e219]:
+            - listitem [ref=e220]:
+              - link "Features" [ref=e221] [cursor=pointer]:
+                - /url: /features
+            - listitem [ref=e222]:
+              - link "Pricing" [ref=e223] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e224]:
+              - link "Blog" [ref=e225] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e226]:
+              - link "Platforms" [ref=e227] [cursor=pointer]:
+                - /url: /platforms
+            - listitem [ref=e228]:
+              - link "Integrations" [ref=e229] [cursor=pointer]:
+                - /url: /integrations
+            - listitem [ref=e230]:
+              - link "Documentation" [ref=e231] [cursor=pointer]:
+                - /url: https://docs.web3forms.com
+        - generic [ref=e232]:
+          - heading "Resources" [level=6] [ref=e233]
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "Form to HTML" [ref=e236] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e237]:
+              - link "Contact form Examples" [ref=e238] [cursor=pointer]:
+                - /url: /examples
+            - listitem [ref=e239]:
+              - link "File upload Form" [ref=e240] [cursor=pointer]:
+                - /url: /examples
+            - listitem [ref=e241]:
+              - link "Contact form Templates" [ref=e242] [cursor=pointer]:
+                - /url: /templates
+            - listitem [ref=e243]:
+              - link "Recaptcha Contact Form" [ref=e244] [cursor=pointer]:
+                - /url: /examples
+            - listitem [ref=e245]:
+              - link "Alternatives" [ref=e246] [cursor=pointer]:
+                - /url: /alternatives
+            - listitem [ref=e247]:
+              - link "Developer tools" [ref=e248] [cursor=pointer]:
+                - /url: /tools
+        - generic [ref=e249]:
+          - heading "Company" [level=6] [ref=e250]
+          - list [ref=e251]:
+            - listitem [ref=e252]:
+              - link "Help & Support" [ref=e253] [cursor=pointer]:
+                - /url: /help
+            - listitem [ref=e254]:
+              - link "Submit Feedback" [ref=e255] [cursor=pointer]:
+                - /url: https://feedback.web3forms.com/
+            - listitem [ref=e256]:
+              - link "Contact Us" [ref=e257] [cursor=pointer]:
+                - /url: /help?contact=true
+            - listitem [ref=e258]:
+              - link "Follow us on Twitter" [ref=e259] [cursor=pointer]:
+                - /url: https://twitter.com/web3forms
+        - generic [ref=e260]:
+          - heading "Legal" [level=6] [ref=e261]
+          - list [ref=e262]:
+            - listitem [ref=e263]:
+              - link "Terms of Service" [ref=e264] [cursor=pointer]:
+                - /url: /terms
+            - listitem [ref=e265]:
+              - link "Privacy Policy" [ref=e266] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e267]:
+              - link "Acceptable Use" [ref=e268] [cursor=pointer]:
+                - /url: /acceptable-use
+            - listitem [ref=e269]:
+              - link "Report Abuse" [ref=e270] [cursor=pointer]:
+                - /url: /report-abuse
+            - listitem [ref=e271]:
+              - link "Uptime Status" [ref=e272] [cursor=pointer]:
+                - /url: https://status.web3forms.com/
+      - paragraph [ref=e274]: Copyright © 2026. Web3Forms
+    - button "Open Contact form Widget" [ref=e275] [cursor=pointer]:
+      - img [ref=e277]
+      - generic [ref=e279]: Open Contact form Widget
+  - alert [ref=e280]
